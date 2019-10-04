@@ -1,0 +1,36 @@
+.search-post {
+  &__keyname {
+    span {
+      color: $primary-color;
+    }
+  }
+  &__form {
+    @extend .sidebar;
+    margin: 30px 0 70px 0;
+  }
+  &__result {
+    margin-bottom: 50px;
+  }
+  &__meta {
+    @extend .wd-post__meta;
+  }
+  &__body {
+
+  }
+
+  &__pagination {
+    @extend .wd-post__pagination;
+  }
+}
+
+.search {
+  .search-post__form {
+    #searchsubmit {
+      top: 50%;
+      transform: translate(0, -50%);
+    }
+  }
+  .search-post__meta {
+    margin: 10px 0 15px;
+  }
+}

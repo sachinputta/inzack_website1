@@ -1,0 +1,136 @@
+<svg xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:cc="http://creativecommons.org/ns#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:svg="http://www.w3.org/2000/svg" xmlns="http://www.w3.org/2000/svg" xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd" xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape" viewBox="0 0 1920 766" version="1.1" id="svg53" sodipodi:docname="titlebar-bg.svg" inkscape:version="0.92.3 (2405546, 2018-03-11)">
+  <metadata id="metadata57">
+    <rdf:RDF>
+      <cc:Work rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type rdf:resource="http://purl.org/dc/dcmitype/StillImage"/>
+        <dc:title/>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <sodipodi:namedview pagecolor="#ffffff" bordercolor="#666666" borderopacity="1" objecttolerance="10" gridtolerance="10" guidetolerance="10" inkscape:pageopacity="0" inkscape:pageshadow="2" inkscape:window-width="3840" inkscape:window-height="2050" id="namedview55" showgrid="false" inkscape:zoom="0.68206342" inkscape:cx="1755.1978" inkscape:cy="898.2911" inkscape:window-x="3348" inkscape:window-y="-12" inkscape:window-maximized="1" inkscape:current-layer="slide_1"/>
+  <defs id="defs6">
+    <style id="style2">
+      .cls-1, .cls-4, .cls-5 {
+        fill: #fff;
+      }
+
+      .cls-1 {
+        stroke: #707070;
+      }
+
+      .cls-2 {
+        clip-path: url(#clip-path);
+      }
+
+      .cls-3 {
+        fill: #3a46d1;
+      }
+
+      .cls-4 {
+        opacity: 0.07;
+      }
+
+      .cls-5 {
+        font-size: 216px;
+        font-family: Montserrat-Black, Montserrat;
+        font-weight: 800;
+        letter-spacing: 0.123em;
+      }
+
+      .cls-5, .cls-6 {
+        opacity: 0.05;
+      }
+
+      .cls-7, .cls-9 {
+        fill: #c8d3ff;
+      }
+
+      .cls-8 {
+        fill: #e9eeff;
+        opacity: 0.29;
+      }
+
+      .cls-9 {
+        opacity: 0.27;
+      }
+
+      .cls-10 {
+        opacity: 0.15;
+      }
+
+      .cls-11 {
+        stroke: none;
+      }
+
+      .cls-12 {
+        fill: none;
+      }
+    </style>
+    <clipPath id="clip-path">
+      <rect id="Rectangle_531" data-name="Rectangle 531" class="cls-1" width="1920" height="766" transform="translate(0 470)"/>
+    </clipPath>
+  </defs>
+  <g id="titlebar_bg" data-name="titlebar bg" class="cls-2" transform="translate(0 -470)" clip-path="url(#clip-path)">
+    <g id="slide_1" data-name="slide 1">
+      <path id="Shape_1" data-name="Shape 1" class="cls-3" d="m 2277.8706,1336.9059 c 0,0 -1472.29236,-69.9632 -1644.09365,-108.9105 C 513.12043,1200.6425 451.8405,1108.007 421.35606,1056.2479 393.16397,1007.2789 382.6373,988.12188 311.989,863.939 c -0.085,-17.973 0.009,-37.531 0.009,-37.531 l 1960.033,-0.013 z" transform="translate(-352,-356.426)" inkscape:connector-curvature="0" style="fill:#3a46d1" sodipodi:nodetypes="csccccc"/>
+      <path id="Polygon_7" data-name="Polygon 7" class="cls-4" d="M1359.988,1380.406c65.862,130.968-61.495,211.651-284.458,180.21l-377.7-125.453c-222.964-31.441-179.753-368.468-177.818-369.521L753.5,920.253c157.1-99.527,337.85-74.04,403.712,56.929Z" transform="translate(-534.535 -389.158)"/>
+      <text id="OSTERISK" class="cls-5" transform="translate(1036 967)">
+        <tspan x="-669.6" y="0" id="tspan10">OSTERISK</tspan>
+      </text>
+      <g id="drawing" transform="translate(1191.974 378.566)">
+        <g id="XMLID_1083_" class="cls-6" transform="translate(630.531 735.63)">
+          <g id="XMLID_106_" transform="translate(0 0)">
+            <g id="XMLID_107_">
+              <path id="path247" class="cls-7" d="M79.79,118.3,43.006,81.512A12.373,12.373,0,0,1,39.37,72.7a12.535,12.535,0,0,1,3.636-8.811l5.408-5.408A7.732,7.732,0,0,1,53.869,56.2a7.542,7.542,0,0,1,5.455,2.284l7.459,7.459A7.732,7.732,0,0,1,69.067,71.4a7.542,7.542,0,0,1-2.284,5.455l-4.2,4.2L80.163,98.622l4.2-4.2a7.732,7.732,0,0,1,5.455-2.284,7.542,7.542,0,0,1,5.455,2.284l7.459,7.459a7.732,7.732,0,0,1,2.284,5.455,7.542,7.542,0,0,1-2.284,5.455L97.32,118.2a12.383,12.383,0,0,1-8.811,3.636A11.5,11.5,0,0,1,79.79,118.3Zm6.993-21.353-5.408,5.408a1.688,1.688,0,0,1-2.378,0l-19.954-20a1.689,1.689,0,0,1,0-2.424l5.408-5.408a4.261,4.261,0,0,0,1.259-3.077,4.375,4.375,0,0,0-1.259-3.077l-7.459-7.459a4.261,4.261,0,0,0-3.077-1.259,4.375,4.375,0,0,0-3.077,1.259L45.43,66.314a9.061,9.061,0,0,0,0,12.821l36.784,36.784a9.061,9.061,0,0,0,12.821,0l5.408-5.408a4.261,4.261,0,0,0,1.259-3.077,4.375,4.375,0,0,0-1.259-3.077L92.984,96.9a4.39,4.39,0,0,0-6.2.047Z" transform="translate(-39.37 -56.197)"/>
+            </g>
+          </g>
+          <g id="XMLID_1054_" transform="translate(0.047 7.296)">
+            <g id="XMLID_490_">
+              <path id="path251" class="cls-7" d="M62.567,97.285a1.868,1.868,0,0,0,1.212-.513,1.688,1.688,0,0,0,0-2.378L45.41,76.026a9.061,9.061,0,0,1,0-12.821,1.681,1.681,0,0,0-2.378-2.378,12.437,12.437,0,0,0,0,17.576L61.4,96.772A1.669,1.669,0,0,0,62.567,97.285Z" transform="translate(-39.396 -60.337)"/>
+            </g>
+          </g>
+          <g id="XMLID_975_" transform="translate(21.609 40.91)">
+            <g id="XMLID_105_">
+              <path id="path255" class="cls-7" d="M79.256,104.286a12.463,12.463,0,0,0,8.811-3.636,1.681,1.681,0,1,0-2.378-2.378,9.061,9.061,0,0,1-12.821,0L54.5,79.9a1.681,1.681,0,0,0-2.378,2.378L70.491,100.65A12.2,12.2,0,0,0,79.256,104.286Z" transform="translate(-51.633 -79.414)"/>
+            </g>
+          </g>
+          <g id="XMLID_973_" transform="translate(55.177 53.825)">
+            <g id="XMLID_104_">
+              <path id="path259" class="cls-7" d="M72.338,95.531a1.868,1.868,0,0,0,1.212-.513l5.408-5.408a1.681,1.681,0,0,0-2.378-2.378L71.172,92.64a1.688,1.688,0,0,0,0,2.378,1.433,1.433,0,0,0,1.166.513Z" transform="translate(-70.683 -86.743)"/>
+            </g>
+          </g>
+          <g id="XMLID_947_" transform="translate(3.124 7.18)">
+            <g id="XMLID_484_">
+              <path id="path263" class="cls-7" d="M42.867,63.721a1.752,1.752,0,1,0-1.212-.513A1.693,1.693,0,0,0,42.867,63.721Z" transform="translate(-41.142 -60.271)"/>
+            </g>
+          </g>
+          <g id="XMLID_945_" transform="translate(3.147 0.047)">
+            <g id="XMLID_483_">
+              <path id="path267" class="cls-7" d="M58.848,82.8a1.868,1.868,0,0,0,1.212-.513l5.408-5.408a7.732,7.732,0,0,0,2.284-5.455,7.542,7.542,0,0,0-2.284-5.455l-7.459-7.459a7.732,7.732,0,0,0-5.455-2.284A7.542,7.542,0,0,0,47.1,58.508l-5.455,5.408a1.681,1.681,0,0,0,2.378,2.378l5.408-5.408a4.261,4.261,0,0,1,3.077-1.259,4.375,4.375,0,0,1,3.077,1.259l7.459,7.459A4.261,4.261,0,0,1,64.3,71.422,4.375,4.375,0,0,1,63.044,74.5l-5.361,5.455a1.688,1.688,0,0,0,0,2.378A1.618,1.618,0,0,0,58.848,82.8Z" transform="translate(-41.155 -56.223)"/>
+            </g>
+          </g>
+          <g id="XMLID_918_" transform="translate(53.125 37.833)">
+            <g id="XMLID_482_">
+              <path id="path271" class="cls-7" d="M73.225,102.447a1.868,1.868,0,0,0,1.212-.513l5.408-5.408a7.732,7.732,0,0,0,2.284-5.455,7.542,7.542,0,0,0-2.284-5.455l-7.459-7.459a1.681,1.681,0,0,0-2.378,2.378l7.459,7.459a4.261,4.261,0,0,1,1.259,3.077,4.375,4.375,0,0,1-1.259,3.077l-5.408,5.408a1.688,1.688,0,0,0,0,2.378,1.433,1.433,0,0,0,1.166.513Z" transform="translate(-69.518 -77.667)"/>
+            </g>
+          </g>
+        </g>
+        <path id="path12" class="cls-8" d="M267.94,232.872l2.191-.373v-2.657l-2.191-.373-1.165-2.751,1.259-1.818-1.911-1.865L264.3,224.34l-2.751-1.119-.373-2.191h-2.657l-.373,2.191-2.751,1.165-1.818-1.259-1.865,1.911,1.305,1.818-1.119,2.751-2.191.373v2.657l2.191.373,1.165,2.751-1.259,1.818,1.911,1.865,1.818-1.305,2.751,1.119.373,2.191h2.657l.373-2.191,2.751-1.165,1.818,1.259,1.865-1.911-1.305-1.818Z" transform="translate(-1234.342 138.353)"/>
+        <path id="polygon18" class="cls-9" d="M157.247,101.884V85.916h15.968V74.546H157.247V58.578H145.876V74.546H129.909V85.916h15.968v15.968Z" transform="translate(-321.963 105.759) rotate(49)"/>
+        <path id="path424" class="cls-3" d="M128.413,127.364h-5.128v-5.128h5.128Zm-10.257,0h-5.128v-5.128h5.128Zm-10.257,0h-5.128v-5.128H107.9Zm-10.257,0H92.515v-5.128h5.128Zm-10.257,0H82.258v-5.128h5.128Z" transform="translate(-503.957 210.062)"/>
+        <path id="path437" class="cls-8" d="M140.412,44.7l2.191-.373V41.672l-2.191-.373-1.166-2.751,1.259-1.818-1.911-1.865-1.818,1.305-2.751-1.119-.373-2.191h-2.657l-.373,2.191-2.751,1.166-1.818-1.259-1.865,1.911,1.305,1.818-1.119,2.751-2.191.373V44.47l2.191.373,1.166,2.751-1.259,1.818,1.911,1.865,1.818-1.305,2.751,1.119.373,2.191h2.657l.373-2.191,2.751-1.166,1.818,1.259,1.865-1.911-1.305-1.818Z" transform="translate(163.47 165.95)"/>
+      </g>
+      <g id="Group_152" data-name="Group 152" class="cls-10" transform="matrix(0.809, 0.588, -0.588, 0.809, -586.832, 716.302)">
+        <g id="Rectangle_120" data-name="Rectangle 120" class="cls-1" transform="translate(1502 -1618)">
+          <rect class="cls-11" width="272.756" height="135.835" rx="67.918" id="rect40"/>
+          <rect class="cls-12" x="0.5" y="0.5" width="271.756" height="134.835" rx="67.418" id="rect42"/>
+        </g>
+        <g id="Rectangle_121" data-name="Rectangle 121" class="cls-1" transform="translate(1803.452 -1618)">
+          <rect class="cls-11" width="272.756" height="135.835" rx="67.918" id="rect45"/>
+          <rect class="cls-12" x="0.5" y="0.5" width="271.756" height="134.835" rx="67.418" id="rect47"/>
+        </g>
+      </g>
+    </g>
+  </g>
+</svg>

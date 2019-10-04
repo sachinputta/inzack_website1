@@ -1,0 +1,103 @@
+.slider-home-business {
+  .orbit-figure {
+    .orbit-image2 {
+      display: block;
+      @include breakpoint(small only) {
+        display: none;
+      }
+    }
+    .orbit-mobile {
+      display: none;
+      @include breakpoint(small only) {
+        display: block;
+      }
+    }
+    .orbit-caption {
+      .image-cloud {
+        position: absolute;
+        top: 30%;
+        transform: translate(-50%, -50%);
+        padding-left: 140px;
+        @include breakpoint(small only) {
+          position: absolute;
+          transform: translate(0, 0);
+          left: -120px;
+        }
+      }
+      #title-p {
+        @include breakpoint(small only) {
+          button {
+            left: 100px;
+          }
+        }
+        h3, p, button {
+          @include breakpoint(small only) {
+            position: relative;
+            top: -90%;
+          }
+        }
+      }
+    }
+  }
+}
+
+.domaine {
+  .domain-search {
+    margin-top: -116px;
+    @include breakpoint(small only) {
+      padding: 0 30px;
+      margin-top: 200px;
+      .__domain-search-header {
+        text-align: center;
+      }
+    }
+  }
+}
+
+.boxes-hom3 {
+  .box {
+    padding-left: 48px;
+  }
+}
+
+.hosted-voip {
+  .img-hosted {
+    padding-top: 190px;
+    @include breakpoint(small only) {
+      top: -232px;
+      position: relative;
+    }
+  }
+  .box-voip {
+
+  }
+}
+
+.wd_testimonials {
+  background-position: left top;
+  position: relative;
+  left: 291.5px;
+  box-sizing: border-box;
+  width: 1903px;
+  padding-left: 291.5px;
+  padding-right: 291.5px;
+
+  .wd-heading {
+    @include breakpoint(small only) {
+      top: 78px;
+      position: relative;
+    }
+  }
+  .testimonail-slik {
+    .testimonail-item {
+      .testimonail-content {
+        @include breakpoint(small only) {
+          width: 37%;
+          display: inline-block;
+          top: 60px;
+          position: relative;
+        }
+      }
+    }
+  }
+}

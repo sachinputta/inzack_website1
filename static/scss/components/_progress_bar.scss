@@ -1,0 +1,25 @@
+.wd-progress-bar-container {
+  .wd-progress-bar {
+    list-style: none;
+    margin: 0;
+    li {
+      margin-bottom: 44px;
+    }
+    .label-bar {
+      color:#001774;
+    }
+    .value-bar {
+      float: right;
+      color:#001774;
+    }
+    .progress {
+      background: #E9EEFF;
+      height: 5px;
+      .meter {
+        background: $secondary-color;
+        height: 5px;
+        display: block;
+      }
+    }
+  }
+}

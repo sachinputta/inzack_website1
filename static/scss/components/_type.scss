@@ -1,0 +1,98 @@
+// Docs: http://foundation.zurb.com/docs/components/type.html
+// Before adding styles be sure to modify variables.
+p {
+  line-height: 1.714;
+  font-size: 15px;
+}
+
+
+.title {}
+.node-title {}
+.page-title {}
+.block-title {}
+
+.item-list {}
+
+div {
+  &.wpb_wrapper {
+    ul {
+       li {
+         &.ui-state-default {
+         padding: 5px 10px;
+        }
+      }
+    }
+  }
+}
+.ui-tabs-active {
+  background: none repeat scroll 0 0 #fff;
+    border-top: 2px solid #d0029a;
+
+}
+.ui-accordion-header-active {
+  background: none repeat scroll 0 0 #fff;
+  border-top: 2px solid #d0029a;
+  border-bottom: 1px solid #EFEFEF;
+}
+
+div{
+  &.wpb_accordion {
+    .wpb_accordion_wrapper {
+      .wpb_accordion_header{
+        padding: 5px 0;
+      }
+    }
+  }
+}
+
+div.collapsed-title {
+  margin-bottom: 40px !important;
+}
+.collapsed-title,
+.collapsed-title h2 {
+  font-size: 1.95em;
+  font-weight: bolder;
+  line-height: 0.95em;
+  margin: 0;
+}
+
+.collapsed-title h2:nth-child(2) {
+  color: #f55a60;
+}
+
+blockquote cite {
+  font-style: normal;
+  font-weight: bold;
+  padding-left: 25px;
+}
+.quote {
+  position: absolute;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  left: 50%;
+  text-align: center;
+  p {
+    position: relative;
+    margin-bottom: 0;
+    color: #FFF;
+    font-size: 25px;
+    line-height: 30px;
+    &:before,
+    &:after {
+      position: absolute;
+      font-family: "FontAwesome";
+      color: #8299b7;
+      font-size: 55px;
+    }
+    &:before {
+      content: "\f10d";
+      top: -35px;
+      left: -40px;
+    }
+    &:after {
+      content: "\f10e";
+      bottom: -35px;
+      right: -35px;
+    }
+  }
+}

@@ -1,0 +1,159 @@
+.playvideo_animation {
+  position: absolute;
+  left: -27px;
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  background-color: $accent-color;
+  opacity: 0;
+  z-index: -1;
+  transform: scale(0.5);
+}
+
+.play {
+  span {
+    position: absolute;
+    top: 13px;
+    left: 75px;
+    z-index: 2;
+    font-size: 14px;
+    line-height: 1.35;
+    font-weight: 700;
+    letter-spacing: .01rem;
+    text-transform: uppercase;
+    color: #555;
+  }
+
+  i {
+    padding: 14px 15px 15px 17px;
+    border-radius: 50%;
+    background: $accent-color;
+    color: #fff;
+    transition: all .3s ease;
+  }
+  &:hover {
+    i, .playvideo_animation {
+      background: $primary-color;
+    }
+  }
+}
+
+.playvideo_animation {
+  animation: playvideoWave 3s cubic-bezier(.55, .06, .68, .19) 0s infinite;
+}
+
+@keyframes playvideoWave {
+  from {
+    opacity: 0.4;
+    transform: scale(0.3);
+  }
+  to {
+    transform: scale(1);
+    opacity: 0;
+  }
+}
+
+.wd-video--big-size {
+  .play {
+    position: relative;
+    i,
+    .playvideo_animation {
+      transform: scale(2);
+    }
+    i {
+      position: absolute;
+      top: -28px;
+      left: -27px;
+      z-index: 2;
+    }
+    .playvideo_animation {
+      top: -81px;
+      left: -80px;
+      width: 150px;
+      height: 150px;
+      z-index: 1;
+      animation: playvideoWaveBig 2s cubic-bezier(.55, .06, .68, .19) 0s infinite;
+    }
+  }
+}
+
+@keyframes playvideoWaveBig {
+  from {
+    opacity: 0.4;
+    transform: scale(0.55);
+  }
+  to {
+    transform: scale(1.1);
+    opacity: 0;
+  }
+}
+
+.wd-video {
+  background-image: url("../images/background-video.png") !important;
+  background-position: center !important;
+  background-repeat: no-repeat !important;
+  background-size: cover !important;
+  padding-top: 150px;
+  padding-bottom: 75px;
+  .full_screen_video_wrapper {
+    top: 282px;
+    position: relative;
+  }
+
+}
+
+.flex-video {
+  background: url("../images/mobile-app.jpg") center center no-repeat;
+  background-size: auto auto;
+  background-size: auto;
+  height: 600px !important;
+  padding-bottom: 500px !important;
+}
+
+
+.wd-video-box {
+  .overlay {
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background: rgba(0, 0, 0, 0.7);
+    transition: opacity 500ms;
+    visibility: hidden;
+    opacity: 0;
+    z-index: 1005;
+  }
+  .overlay:target {
+    visibility: visible;
+    opacity: 1;
+  }
+
+  .popup {
+    margin: 70px auto;
+    padding: 20px 20px 34px 20px;
+    background: #fff;
+    border-radius: 5px;
+    width: 50%;
+    height: 70%;
+    position: relative;
+    transition: all 5s ease-in-out;
+    @include breakpoint(small only) {
+      width: 90%;
+      height: 70%;
+    }
+  }
+
+  .popup .close {
+    position: absolute;
+    top: 96%;
+    right: 97%;
+    color: rgba(51,92,255,1);
+    font-size: 18px;
+  }
+  embed {
+    height: 100%;
+    width: 100%;
+  }
+
+}

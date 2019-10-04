@@ -1,0 +1,181 @@
+.form-input {
+  .wd_form_input {
+    padding-top: 46px;
+    padding-right: 46px;
+    padding-bottom: 30px;
+    padding-left: 46px;
+
+    input:not([type="submit"]) {
+      border: none;
+      border-bottom-color: currentcolor;
+      border-bottom-style: none;
+      border-bottom-width: medium;
+      border-bottom-color: currentcolor;
+      border-bottom-style: none;
+      border-bottom-width: medium;
+      border-bottom: 3px solid #E9EEFF;
+      font-size: 14px;
+      color: #000;
+      border-radius: 0;
+      box-shadow: none;
+      padding: 0 0 10px;
+      margin: 35px 0 0;
+    }
+    textarea:hover {
+      background: transparent;
+      border: none;
+      border-bottom-color: currentcolor;
+      border-bottom-style: none;
+      border-bottom-width: medium;
+      border-bottom: 3px solid #FF337F;
+    }
+    textarea {
+      min-height: 158px;
+      height: 158px;
+      margin-top: 26px;
+    }
+    input[type="submit"] {
+      background: no-repeat;
+      color: #000;
+      font-size: 14px;
+      border-bottom: 2px solid #000;
+      border-radius: 0;
+      margin-top: 60px;
+    }
+    input[type="submit"]:hover {
+      color: #335CFF;
+      border-color: #FF337F;
+      cursor: pointer;
+    }
+    .wpcf7 {
+      .wpcf7-form {
+        .contact_style_1 {
+          input:not([type="submit"]):hover {
+            background: transparent;
+            border: none;
+            border-bottom-color: currentcolor;
+            border-bottom-style: none;
+            border-bottom-width: medium;
+            border-bottom: 3px solid #FF337F;
+          }
+        }
+      }
+    }
+  }
+  .wd_form-right {
+    padding-top: 50px;
+    padding-right: 50px;
+    padding-left: 50px;
+    background-color: #3a46d1;
+    height: 517px;
+    .wd-form2 {
+          input :hover {
+            color: #fff;
+            border-color: #FF337F;
+            cursor: pointer;
+          }
+          input {
+            background: #3a46d1;
+            border: none;
+            border-bottom-color: currentcolor;
+            border-bottom-style: none;
+            border-bottom-width: medium;
+            border-bottom-color: currentcolor;
+            border-bottom-style: none;
+            border-bottom-width: medium;
+            border-bottom: 3px solid #E9EEFF;
+            font-size: 14px;
+            color: #000;
+            border-radius: 0;
+            box-shadow: none;
+            padding: 0 0 10px;
+            margin: 35px 0 0;
+          }
+      input[type="submit"] {
+        border-radius: 32px 32px 0 32px;
+        line-height: 2em;
+        font-size: 13px;
+        padding: 11px 36px 9px;
+        color: #262626;
+        background: #FFFFFF;
+        float: right;
+        border: none;
+      }
+      input[type="submit"]:hover {
+        color: #fff;
+        background: #335CFF;
+        cursor: pointer;
+      }
+    }
+  }
+}
+
+.form3 {
+  input:not([type="submit"]), textarea {
+    border-radius: 30px 30px 0 30px;
+    box-shadow: 0 1px 20px rgba(64, 124, 191, 0.08);
+    font-size: 18px;
+    color: #4D4D4D;
+    font-weight: 300;
+    padding: 12px 26px 9px;
+    line-height: 33px;
+    height: auto;
+    margin-top: 32px;
+    border: 1px solid #E1DBDB;
+  }
+  input:hover
+  {
+    border-color: #335CFF;
+  }
+ textarea:hover
+  {
+    border-color: #335CFF;
+  }
+  input[type="submit"]
+  {
+  border-radius: 32px 32px 0 32px;
+  line-height: 2;
+  font-size: 15px;
+  padding: 18px 48px 13px;
+  color: #fff;
+  background: #335CFF;
+  border: none;
+  text-transform: uppercase;
+    margin-top: 20px;
+}
+  input[type="submit"]:hover
+  {  color: #fff;
+    background: #FF337F;
+    cursor: pointer;
+  }
+}
+
+.form4
+{
+  input,textarea{
+    border: 1px solid #E1DBDB;
+    margin-top: 18px;
+
+    padding: 28px;
+  }
+  input[type="submit"]
+  {
+    border-radius: 32px 32px 0 32px;
+    line-height: 2;
+    font-size: 15px;
+    padding: 18px 48px 13px;
+    color: #fff;
+    background: #335CFF;
+    border: none;
+    text-transform: uppercase;
+    margin-top: 20px;
+    border-radius: 32px 32px 0 32px;
+    right: -205px;
+    position: relative;
+  }
+  input[type="submit"]:hover
+  {  color: #fff;
+    background: #FF337F;
+    cursor: pointer;
+  }
+}

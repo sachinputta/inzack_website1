@@ -1,0 +1,76 @@
+.text-icon {
+  padding: 40px;
+  border-radius: 4px;
+  transition: all 0.2s cubic-bezier(0.02, 0.54, 0.58, 1);
+  margin-bottom: 30px;
+  transition: .35s;
+  &:hover {
+    box-shadow: 0 3px 30px rgba(110,122,182,0.1);
+    transform: translate3d(0,-20px,0);
+  }
+  .center {
+    text-align: center;
+  }
+  .left {
+    text-align: left;
+  }
+  .right {
+    text-align: right;
+  }
+  &__container {
+    display: flex;
+    flex-wrap: nowrap;
+    @include breakpoint(small only) {
+      display: block;
+    }
+  }
+  &__icon-box {
+    flex: 0 0 100px;
+    padding: 0 15px 0 25px;
+    @include breakpoint(small only) {
+      padding: 0 15px 15px 0;
+    }
+    img, svg {
+      max-width: 90px;
+    }
+    i {
+      font-size: 45px;
+    }
+  }
+  &__title {
+    padding: 18px 0 15px;
+    margin: 0;
+    transition: all 0.3s ease 0s;
+  }
+  &__text {
+    margin: 0;
+  }
+
+  /*--------- Icon Top position --------- */
+  &--icon-top_position &__container {
+    flex-flow: column wrap;
+  }
+  &--icon-top_position &__icon-box {
+    flex: 0 0 60px;
+    padding: 0;
+  }
+  &--icon-top_position &__icon-box {
+    img,
+    svg {
+      max-height: 50px;
+    }
+  }
+
+  /*--------- Icon Left position --------- */
+  &--icon-right_position &__icon-box {
+    order: 2;
+  }
+  &--icon-left_position,
+  &--icon-right_position {
+    .text-icon__title {
+      padding-top: 0;
+    }
+  }
+
+}
+

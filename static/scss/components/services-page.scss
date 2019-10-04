@@ -1,0 +1,40 @@
+.accordion {
+  .accordion-title
+  {
+    border-bottom: 1px solid #335CFF;
+    border: none;
+    margin-bottom: 20px;
+    background: transparent;
+    padding-left: 46px;
+    border-bottom: 1px blue solid;
+    padding-bottom: 0px;
+    &::before
+    {
+      position: absolute;
+      top: 70%;
+      transform: translateY(-50%);
+      left: 20px;
+      font-size: 28px;
+    }
+  }
+  .accordion-content {
+    border: none;
+    border: 0;
+  }
+  p {
+
+    margin: 2px 0 0 0;
+    padding: .5em .5em .5em .7em;
+    background: none;
+    overflow-y: hidden;
+    border-left: none;
+    border-right: none;
+    border-bottom: none;
+    color: #718494;
+  }
+  h4 {
+    background: none;
+    font-weight: 300;
+  }
+
+}

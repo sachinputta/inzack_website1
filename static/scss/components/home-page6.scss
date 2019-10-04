@@ -1,0 +1,110 @@
+
+.home-page6 {
+  .orbit{
+  @include breakpoint(small only) {
+    padding-top: 101px;
+  }
+  }
+  li.orbit-slide {
+    top: 105px;
+    position: relative;
+  }
+  .get-touch-form {
+    @include breakpoint(small only) {
+      top: 200px;
+    }
+  }
+
+  h3#companies-home6,h3#companies1-home6 {
+    text-decoration: underline rgb(51, 92, 255);
+    transition: none 0s ease 0s;
+    text-align: inherit;
+    line-height: 45px;
+    border-width: 0px;
+    margin: 0px;
+    padding: 0px;
+    letter-spacing: 0px;
+    font-weight: 800;
+    font-size: 32px;
+    @include breakpoint(small only) {
+      font-size: 21px;
+      top: 20%;
+    }
+  }
+ p#business-slide,p#business1-slide{
+   color: rgb(135, 151, 217);font-size: 20px;line-height: 32px;
+   @include breakpoint(small only) {
+     font-size: 13px ;
+     line-height: 16px;
+   }
+ }
+  #image-apel {
+    position: absolute;
+    top: 49%;
+    transform: translate(-50%, -50%);
+    padding-left: 50px;
+    left: 71%;
+  }
+  #image-slid2 {
+    position: absolute;
+    top: 9%;
+    transform: translate(-50%, -50%);
+    padding-left: 50px;
+    left: 71%;
+    @include breakpoint(small only) {
+      left: 91%;
+    }
+  }
+  .orbit-image-home6 {
+    left: 70%;
+    position: relative;
+  }
+  .form-home6 {
+    position: absolute;
+    top: 73%;
+    transform: translate(-50%, -50%);
+    padding-left: 50px;
+    left: 50%;
+  }
+  button#btn-home6 {
+    background: none;
+    color: #000;
+    border-bottom: 4px solid rgb(51, 92, 255);
+    border-bottom-width: 4px;
+    border-radius: inherit;
+    border-width: 0px 0px 3px;
+  }
+  button#btn1-home6 {
+    background: none;
+    color: #000;
+    border-bottom: 4px solid rgb(51, 92, 255);
+    border-bottom-width: 4px;
+    border-radius: inherit;
+    border-width: 0px 0px 3px;
+  }
+}
+header.l-header {
+  .top-bar-container.sticky {
+    .site-navigation.top-bar {
+      .top-bar-black{
+        li a {
+          color: #001774;
+        }
+
+      }
+    }
+  }}
+
+.experts {
+  @include breakpoint(small only) {
+    padding-top: 350px;
+  }
+}
+
+.form-quote
+{
+   background-image: url("../images/heading_section.png");
+  background-position: center ;
+  background-repeat: no-repeat ;
+  background-size: cover ;
+}

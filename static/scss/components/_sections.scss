@@ -1,0 +1,295 @@
+.st0 {
+  fill: #F7C5FF;
+}
+
+.services {
+  @include breakpoint(small only) {
+    position: relative;
+    top: 204px;
+  }
+  .wd-boxes {
+    padding-top: 57px;
+    padding-right: 46px;
+    padding-bottom: 74px;
+    padding-left: 55px;
+    background-color: #ffffff;
+    border-radius: 30px !important;
+    top: -145px;
+    position: relative;
+    @include breakpoint(small only) {
+      top: -150px;
+    }
+  }
+
+
+.wd-boxes2 {
+  top: 90px;
+  position: relative;
+}
+
+.small-shadow {
+  box-shadow: 0 10px 50px rgba(4, 75, 194, 0.1);
+  border: 1px solid rgba(88, 136, 247, 0.1);
+}
+
+}
+
+.wd_single_image {
+  .wd_figure {
+    display: inline-block;
+    vertical-align: top;
+    margin: 0;
+    max-width: 100%;
+    opacity: 1;
+
+    top: 10%;
+
+    transform: matrix(1, 0, 0, 1, 22.8312, -16.756);
+  }
+}
+
+.wd_single_image img {
+  height: auto;
+  max-width: 100%;
+  vertical-align: top;
+
+}
+
+.wd_single_image {
+  .wd_single_image-wrapper {
+    display: inline-block;
+    vertical-align: top;
+    max-width: 100%;
+  }
+}
+
+@keyframes fadein {
+  from {
+    opacity: 0;
+    top: 700px;
+  }
+  to {
+    opacity: 1;
+    top: 0;
+  }
+}
+
+.orbit-fadein {
+  margin-top: 25px;
+  font-size: 21px;
+  text-align: center;
+  animation: fadein 2s;
+}
+
+.wd_basic {
+  background-color: #3a46d1 !important;
+}
+
+.wd-boxes2 {
+  top: 90px;
+  position: relative;
+}
+
+.wd-princing-index {
+  background-image: url("../images/section-bg-1.png") !important;
+  background-position: center !important;
+  background-repeat: no-repeat !important;
+  background-size: cover !important;
+  position: relative;
+  top: 250px;
+  margin-bottom: 400px;
+}
+
+.from-shadow {
+  padding-right: 50px;
+  padding-left: 50px;
+  .wd_column-inner {
+    box-shadow: 0 10px 50px rgba(4, 75, 194, 0.1);
+    border: 1px solid rgba(88, 136, 247, 0.1);
+  }
+  .form-cloud {
+    padding-top: 26px;
+    padding-right: 62px;
+    padding-bottom: 21px;
+    padding-left: 25px;
+    background-color: #ffffff;
+  }
+}
+
+.wd_basic {
+  background-color: #3a46d1 !important;
+}
+
+.wd-pricing {
+  background: url("../images/princing-section-bg.png") !important;
+  background-position-x: 0%;
+  background-position-y: 0%;
+  background-repeat: repeat;
+  background-size: auto auto;
+  background-position: center !important;
+  background-repeat: no-repeat !important;
+  background-size: cover !important;
+
+}
+
+.cls-2 {
+  fill: none !important;
+}
+
+.form-Quote {
+  background-image: url("../images/background-video.png") !important;
+  background-position: center !important;
+  background-repeat: no-repeat !important;
+  background-size: cover !important;
+}
+
+.second-footer {
+  background: rgba(58, 70, 209, 1);
+  color: rgba(255, 255, 255, 1);
+}
+
+.first-footer {
+  .block-title {
+    border-bottom: 2px solid #FFF;
+    display: inline-block;
+    padding-bottom: 4px;
+    margin-bottom: 30px;
+    color: #fff !important;
+  }
+  .block .menu .menu-item a {
+    padding: 0;
+    transition: all .2s ease-in-out;
+    line-height: 1.3;
+  }
+  ul li a {
+    color: #fff !important;
+  }
+}
+
+.play {
+  .playvideo_animation {
+    top: -35px;
+    left: 584px;
+    width: 150px;
+    height: 150px;
+    z-index: 1;
+    animation: playvideoWaveBig 2s cubic-bezier(0.55, 0.06, 0.68, 0.19) 0s infinite;
+    font-family: "Font Awesome 5 Free";
+  }
+  i {
+    padding: 35px 35px 35px 35px !important;
+    top: 265px !important;
+  }
+}
+
+.fa-play:before {
+  content: "\f04b";
+  font-family: "Font Awesome 5 Free";
+  font-weight: 900;
+}
+
+.fa, .far, .fas {
+  font-family: "Font Awesome 5 Free";
+  font-weight: 900;
+}
+
+.wd-boxes-home2 {
+  background-color: #ffffff !important;
+  border-radius: 30px !important;
+  width: 375px;
+}
+
+.wd-portfolio-category-holder {
+  padding-right: 14px;
+}
+
+.our-numbers {
+  .wd-count-up::before {
+    content: "";
+    display: block;
+    position: absolute;
+    top: 50%;
+    background: #ff337f;
+    height: 2px;
+    width: 25px;
+    left: -20px;
+  }
+}
+
+.get-touch-form {
+
+  background-color: #3A46D1;
+  border-radius: 112px 112px 0 112px;
+  padding: 33px 88px 10px 125px !important;
+  overflow: hidden;
+  box-shadow: 0 28px 48px 0 rgba(0, 95, 178, 0.2);
+  display: inline-block;
+  position: relative;
+  left: 50%;
+  transform: translate(-50%);
+
+}
+
+.wd_custom_cloud {
+  margin-left: -60px ;
+  padding-top: 42px ;
+  padding-bottom: 0px;
+  padding-right: 100px;
+  @include breakpoint(small only) {
+    margin-left: 0px;
+  }
+  }
+
+.wd_custom_cloud2 {
+  margin-left: -60px ;
+  padding-right: 100px;
+  @include breakpoint(small only) {
+    margin-left: 0px;
+  }
+}
+
+.wd_testimonials {
+
+  background-image: url("../images/Mask-Group-15.png") !important;
+  background-position: center ;
+  background-repeat: no-repeat ;
+  background-size: cover ;
+
+}
+
+.wd_box_home2 {
+  background-color: #ffffff !important;
+  border-radius: 32px !important;
+}
+
+.wd_custom_home2 {
+
+  padding-top: 20px ;
+  padding-bottom: 20px ;
+  padding-left: 20px ;
+
+}
+
+.wd_custom_bg {
+  background-image: url("../images/background-video.png") ;
+  background-position: center ;
+  background-repeat: no-repeat ;
+  background-size: cover ;
+}
+.wd_custom_box
+{
+  background-color: #ffffff ;
+  border-radius: 30px ;
+  width: 410px;
+}
+.macbook{
+  background-image: url("../images/background-video.png") ;
+  background-position: center ;
+  background-repeat: no-repeat ;
+  background-size: cover ;
+
+  .macbook-img
+  {
+    padding-left: 84px;
+  }
+}

@@ -1,0 +1,26 @@
+.not_found {
+  text-align: center;
+  width: 100%;
+  margin: 150px 0;
+  &__title {
+
+  }
+  &__message {
+
+  }
+  &__404 {
+    font-size: 200px;
+    color: $primary-color;
+  }
+  &__search {
+    @extend .sidebar;
+    .searchform {
+      max-width: 500px;
+      margin: 0 auto;
+    }
+
+  }
+
+
+
+}

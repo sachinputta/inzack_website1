@@ -1,0 +1,95 @@
+.wpcf7-form {
+  input[type="submit"] {
+    color: #ffffff;
+    border: none;
+    background-color: #5709bd;
+    background-image: -webkit-linear-gradient(left, #5709bd 0%, #3806ca 50%,#5709bd 100%);
+    background-image: linear-gradient(to right, #5709bd 0%, #3806ca 50%,#5709bd 100%);
+    -webkit-transition: all .2s ease-in-out;
+    transition: all .3s ease-in-out;
+    background-size: 200% 100%;
+    padding: 17px 60px;
+    font-weight: 600;
+    letter-spacing: .5px;
+    border-radius: 30px;
+    text-decoration: none;
+    &:hover {
+      color: #ffffff;
+      background-color: #481ebe;
+      border: none;
+      background-position: 100% 0;
+    }
+  }
+
+
+  //Form 2
+
+  .contact-form.email-form {
+    div.columns {
+      .input-form {
+        input[type="text"],input[type="email"] {
+          height: 50px !important;
+          margin-bottom: 30px;
+          position: relative;
+          color: #999999;
+          border-bottom: 2px solid #C8D3FF !important;
+          box-shadow: 0 7px 15px -7px rgba(236,226,226,0.3);
+          border-top: none !important;
+          border-left: none !important;
+          border-right: none !important;
+          z-index: 10;
+          background: #fff !important;
+          padding-left: 0 !important;
+          transition: all .4s ease-in-out;
+          &:focus{
+            border-bottom: 2px solid $accent-color !important;
+          }
+        }
+        textarea {
+          background: #fff !important;
+          margin-bottom: 0;
+          position: relative;
+          color: #999999;
+          border-bottom: 2px solid #C8D3FF !important;
+          box-shadow: 0 7px 15px -7px rgba(236,226,226,0.3);
+          border-top: none !important;
+          border-left: none !important;
+          border-right: none !important;
+          z-index: 10;
+          padding-left: 0;
+          transition: all .4s ease-in-out;
+          &:focus{
+            border-bottom: 2px solid $accent-color !important;
+          }
+        }
+      }
+      &.in-left {
+        float: left !important;
+        .wpcf7-submit {
+          width: 80%;
+          background: no-repeat;
+          border-radius: 112px 112px 0 112px;
+          border: 1px solid #c8d3ff;
+          color: #000;
+          padding: 10px;
+          font-weight: 700;
+          font-size: 12px;
+          line-height: 26px;
+          text-transform: uppercase;
+          transition: all .5s ease-in-out;
+          margin-top: 40px;
+          &:hover {
+            border-color: #000;
+            cursor: pointer;
+          }
+          @include breakpoint(small only) {
+            width: 100%;
+          }
+        }
+      }
+    }
+  }
+}
+
+
+

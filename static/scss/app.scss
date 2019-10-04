@@ -1,0 +1,369 @@
+/*------------------------------------------------------------------
+[Table of contents]
+
+I body
+	1 : Header
+	   1.1 : Menu / .menu
+	   1.2 : creative/.creative-layout
+	   1.3 : corporate/.corporate-layout
+	   1.4 : Menu Mobile / .menu-mobile
+	2 : Content
+	    2.1 Slider / .slider-home-business
+        2.2 boxes / .wd-boxes
+        2.3 progress-bar / .wd-progress-bar
+        2.4 Accordion / .style1 .style2
+        2.5 Tabs / .tabs
+        2.6 Button / .wd-btn
+        2.7 Heading / .wd-heading
+        2.8 Forms & Input /.form-input
+        2.9 Text with Icon / .text-icon
+        2.10 Count up / .wd-count-up
+        2.11 Team / .team-member
+        2.12 Testimonail / .testimonail-slik
+        2.13 Clients / .wd-clients-grid
+        2.14 blog styles / .wd-post
+        2.15 Portfolio / .portfolio-layout-1
+        2.16 Sidebar
+            2.16.1 .sidebar-first
+            2.16.2 .sidebar-second
+	   2.17 widget  / .widget
+	   2.18 gallery / .gallery-caption
+	   2.19 mixins / .lt-ie8
+	   2.20 icons / #lang_sel_list
+	   2.21 calendar / .calendar-calendar
+	   2.22 table / .tabs
+	   2.23 lists / .main ul
+	   2.24 comments / #comments
+	   2.25 contact / .wpcf7-form
+	   2.26 sections / .st0
+	   2.27 video / .playvideo_animation
+	   2.28 animation / .page-loading
+	   2.29 svg / .wd-svg
+       2.30 domain-search / .domain-search
+       2.31 contact-page / .wpcf7-form
+       2.32 shop / .woocommerce
+       2.33 image-box / .image-box-item
+       2.34 carousel / .owl-carousel
+       2.35 404 / .not_found
+       2.36 title-bar / .titlebar
+       2.37 instagram / .instagram
+       2.38 responsive / .show-cart-btn
+       2.39 custom / .count1
+       2.40 common / .alignnone
+	   2.41 vcomposer / .wpb_row
+	   2.42 Searsh / .search
+   3 help / .primary-color_bg
+   4 Footer
+       4.1 .first-footer
+       4.2 .second-footer
+
+------------------------------------------------------------------*/
+
+@charset 'utf-8';
+
+@import 'settings';
+@import '../node_modules/foundation-sites/scss/foundation';
+//@import '../node_modules/motion-ui/motion-ui';
+
+@include foundation-global-styles;
+@include foundation-grid;
+@include foundation-flex-grid;
+@include foundation-xy-grid-classes;
+@include foundation-typography;
+@include foundation-button;
+@include foundation-forms;
+// @include foundation-range-input;
+@include foundation-accordion;
+@include foundation-accordion-menu;
+//@include foundation-badge;
+@include foundation-breadcrumbs;
+//@include foundation-button-group;
+//@include foundation-callout;
+@include foundation-card;
+//@include foundation-close-button;
+@include foundation-menu;
+@include foundation-menu-icon;
+@include foundation-drilldown-menu;
+@include foundation-dropdown;
+@include foundation-dropdown-menu;
+@include foundation-responsive-embed;
+//@include foundation-label;
+@include foundation-media-object;
+//@include foundation-off-canvas;
+//@include foundation-orbit;
+@include foundation-pagination;
+//@include foundation-progress-bar;
+//@include foundation-slider;
+@include foundation-sticky;
+@include foundation-reveal;
+//@include foundation-switch;
+@include foundation-table;
+@include foundation-tabs;
+//@include foundation-thumbnail;
+@include foundation-title-bar;
+//@include foundation-tooltip;
+@include foundation-top-bar;
+@include foundation-visibility-classes;
+// @include foundation-float-classes;
+@include foundation-flex-classes;
+
+// @include foundation-prototype-classes;
+
+//@include motion-ui-transitions;
+//@include motion-ui-animations;
+
+
+
+// Base
+//
+// Init file contains required imports. Here's where we include normalize,
+// foundation and also compass.
+//@import "base/init";
+
+// Styling for elements.
+@import "base/elements";
+//
+// Layout
+//
+// Each section of the document has it's own partial seperated out to improve
+// developer experience. Additionally, grids can be declared in layouts as well.
+//@import "layout/header";
+
+/*------------------------------------------------------------------
+[I body]
+*/
+@import "modules/homepage";
+@import "vendors/woocommerce";
+
+/*------------------------------------------------------------------
+[1 Header]
+*/
+@import "components/headers/menu-mobile";
+@import "components/headers/menu";
+@import "components/headers/menu-corporate";
+@import "components/headers/menu-creative";
+/*------------------------------------------------------------------
+[2.1 Slider]
+*/
+@import "vendors/_sliders";
+@import "components/_slider";
+@import "components/slider_business";
+@import "components/slider_home2";
+
+/*------------------------------------------------------------------
+[2.2 boxes]
+*/
+@import "components/home-page3";
+/*------------------------------------------------------------------
+[2.3 progress_bar]
+*/
+@import "components/_progress_bar";
+/*------------------------------------------------------------------
+[ 2.4  Accordion]
+*/
+@import "components/accordion";
+@import "components/_accordions";
+@import "components/services-page";
+
+/*------------------------------------------------------------------
+[2.5 Tabs]
+*/
+@import "components/tabs";
+/*------------------------------------------------------------------
+[2.6 buttons]
+*/
+@import "components/buttons";
+@import "components/type";
+/*------------------------------------------------------------------
+[2.7 headings]
+*/
+@import "components/headings";
+/*------------------------------------------------------------------
+[2.8 Forms & Input]
+*/
+@import "components/forms";
+@import "components/form_input";
+
+/*------------------------------------------------------------------
+[2.9 text-icon]
+*/
+@import "components/_text-icon";
+/*------------------------------------------------------------------
+[2.10  2.10 Count up]
+*/
+@import "components/_countup";
+
+/*------------------------------------------------------------------
+[2.11 Team]
+*/
+@import "components/team-member";
+
+/*------------------------------------------------------------------
+[2.12 testimonail]
+*/
+@import "components/testimonail";
+/*------------------------------------------------------------------
+[2.13 client]
+*/
+@import "modules/clients";
+/*------------------------------------------------------------------
+[ 2.14  blog styles]
+*/
+@import "components/blog";
+/*------------------------------------------------------------------
+[ 2.15 portfolio]
+*/
+@import "components/portfolio";
+/*------------------------------------------------------------------
+[  2.16  Sidebar]
+*/
+@import "layout/aside";
+/*------------------------------------------------------------------
+[ 2.17 widget]
+*/
+@import "modules/widgets";
+/*------------------------------------------------------------------
+[2.18 gallery]
+*/
+@import "components/woocommerce-home3";
+@import "layout/global";
+
+/*------------------------------------------------------------------
+[  2.19 mixins]
+*/
+@import "tools/mixins";
+// Import our mixins early so they can be used by other partials.
+@import "base/mixins";
+
+/*------------------------------------------------------------------
+[  2.20 icons]
+*/
+@import "vendors/_foundation-icons";
+@import "components/lang_icons";
+/*------------------------------------------------------------------
+[  2.21 calendar]
+*/
+@import "components/calendar";
+
+/*------------------------------------------------------------------
+[  2.22 table]
+*/
+@import "components/table";
+
+/*------------------------------------------------------------------
+[  2.23 lists]
+*/
+@import "components/lists";
+
+/*------------------------------------------------------------------
+[  2.24 comments]
+*/
+@import "components/comments";
+
+/*------------------------------------------------------------------
+[  2.25 contact]
+*/
+@import "components/contact";
+
+/*------------------------------------------------------------------
+[  2.26 section]
+*/
+@import "components/_sections";
+
+/*------------------------------------------------------------------
+[  2.27 video]
+*/
+@import "components/video";
+
+/*------------------------------------------------------------------
+[  2.28 animation]
+*/
+@import "components/_loading-animation";
+
+/*------------------------------------------------------------------
+[  2.29 svg]
+*/
+@import "components/_svg";
+/*------------------------------------------------------------------
+[  2.30 domain-search]
+*/
+@import "components/_domain-search";
+
+/*------------------------------------------------------------------
+[  2.31 contact-page]
+*/
+@import "components/contact-page";
+
+/*------------------------------------------------------------------
+[  2.32 shop]
+*/
+@import "components/_shop";
+
+/*------------------------------------------------------------------
+[  2.33 image-box]
+*/
+@import "modules/image-box";
+
+/*------------------------------------------------------------------
+[  2.34 carousel]
+*/
+@import "modules/carousel";
+
+/*------------------------------------------------------------------
+[  2.35 404]
+*/
+@import "modules/404";
+
+/*------------------------------------------------------------------
+[  2.36 title-bar]
+*/
+@import "modules/title-bar";
+/*------------------------------------------------------------------
+[  2.37 instagram]
+*/
+@import "modules/instagram";
+
+/*------------------------------------------------------------------
+[  2.38 responsive]
+*/
+@import "tools/responsive";
+
+/*------------------------------------------------------------------
+[  2.39 custom]
+*/
+@import "custom";
+
+/*------------------------------------------------------------------
+[ 2.40 common]
+*/
+@import "base/common";
+
+/*------------------------------------------------------------------
+[ 2.41 vcomposer]
+*/
+@import "vendors/_vcomposer";
+/*------------------------------------------------------------------
+[ 2.42 Searsh / .search ]
+*/
+@import "modules/search";
+
+/*------------------------------------------------------------------
+[  3 help]
+*/
+@import "help";
+
+
+@import "base/common";
+/*------------------------------------------------------------------
+[  4 Footer]
+*/
+@import "layout/footer";
+@import "modules/inline-style";
+
+
+//home page 5 6
+@import "components/home-page5";
+@import "components/home-page6";
+
+
+

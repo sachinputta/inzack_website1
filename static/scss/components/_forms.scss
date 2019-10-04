@@ -1,0 +1,438 @@
+input[type="text"],
+input[type="password"],
+input[type="date"],
+input[type="datetime"],
+input[type="datetime-local"],
+input[type="month"],
+input[type="week"],
+input[type="email"],
+input[type="number"],
+input[type="search"],
+input[type="tel"],
+input[type="time"],
+input[type="url"],
+input[type="color"],
+textarea,
+input.wd-f7-submit {
+  box-shadow: 0 1px 20px rgba(64,124,191,0.08);
+  border: none;
+  &:hover {
+    border-color: $primary-color;
+  }
+  &:focus {
+    border-color: $accent-color;
+    box-shadow: 0px 5px 10px 0px rgba(0, 124, 242, 0.2);
+  }
+}
+
+.wd-f7-form-control-wrap input, .wd-f7-form-control-wrap textarea, .wpb_wrapper .wd-f7-form-control.wd-f7-text.wd-f7-email.wd-f7-validates-as-required.wd-f7-validates-as-email {
+  background: transparent;
+}
+
+.searchform {
+  & > div {
+    position: relative;
+  }
+}
+
+.contact-form {
+  div.large-6, .large-12, .large-9 {
+    position: relative;
+    span {
+      input, select {
+        height: 40px ;
+        margin-bottom: 20px;
+        background: #f5f7f6;
+        border: 1px solid #f5f7f6;
+        padding-left: 15px;
+        border-radius: 2px;
+        font-size: 15px;
+        position: relative;
+        &::-moz-placeholder {
+          color: #C0BBBB;
+          text-transform: capitalize;
+        }
+      }
+      textarea {
+        max-height: 179px;
+        margin-bottom: 20px;
+        padding-left: 15px;
+        border-radius: 2px;
+        font-size: 15px;
+        background: #f5f7f6;
+        border: 1px solid #f5f7f6 !important;
+        position: relative;
+        &::-moz-placeholder {
+          color: #C0BBBB;
+        }
+      }
+      select {
+        color: #666;
+        &::-moz-placeholder {
+          color: #C0BBBB;
+        }
+      }
+    }
+    .fa {
+      position: absolute;
+      top: 12px;
+      right: 25px;
+      color: #b6c6c9;
+    }
+    .required_field {
+      position: absolute;
+      left: 88px;
+      top: 14px;
+      color: #ff7171;
+    }
+  }
+  [type="submit"] {
+    @extend .primary-color_bg;
+  }
+}
+
+.search-bar {
+  position: absolute;
+  top: 540px;
+  width: 100%;
+  @include breakpoint(small only) {
+    position: relative;
+    top: auto;
+  }
+}
+
+.brands_form {
+  margin-top: 0;
+  background-color: rgba(255, 255, 255, 0.2);
+  border-radius: 60px;
+  padding: 10px 0;
+  display: flex;
+  align-items: center;
+  @include breakpoint(small only) {
+    display: block;
+    padding: 70px 0 10px;
+    background-color: transparent;
+  }
+  form {
+    width: 100%;
+    ul {
+      margin: 0;
+      display: flex;
+      align-items: center;
+      @include breakpoint(small only) {
+        display: block;
+      }
+      li {
+        position: relative;
+        margin: 0;
+        padding: 0 15px;
+        width: calc(100% / 3);
+        list-style: none;
+        @include breakpoint(small only) {
+          width: 100%;
+          margin-bottom: 15px;
+          &:last-child {
+            margin-bottom: 0;
+          }
+        }
+        select {
+          width: 100%;
+          height: 55px;
+          background: #FFF;
+          border: none;
+          color: #928f8f;
+          text-transform: uppercase;
+          font-family: $body-font-family;
+          font-size: 12px;
+          font-weight: 500;
+          padding: 0 30px;
+          border-radius: 30px;
+          box-shadow: 0 0 5px 1px rgba(0, 0, 0, .1);
+          outline: none;
+          margin-bottom: 0;
+          @include breakpoint(small only) {
+            width: 100%;
+            max-width: 100%;
+            margin-left: 0;
+          }
+        }
+        &.brands:after, &.keyword:after, &.year:after {
+          content: "\f0d7";
+          font-family: "FontAwesome";
+          color: #333;
+          position: absolute;
+          right: 35px;
+          top: 50%;
+          transform: translateY(-50%);
+          font-size: 16px;
+        }
+        .button {
+          border-radius: 30px;
+          padding: 25px 55px 20px 55px;
+          background-color: #febc01;
+          text-transform: uppercase;
+          color: #333;
+          font-size: 12px;
+          font-weight: 500;
+          border: none;
+          margin: 0;
+          width: 100%;
+        }
+        &.brands {
+          select {
+            width: 310px;
+            @include breakpoint(small only) {
+              width: 100%;
+            }
+          }
+        }
+        @include breakpoint(small only) {
+          float: none;
+        }
+      }
+    }
+  }
+}
+
+.has-negative-m {
+  &.wpb_row {
+    margin-top: -300px;
+    @include breakpoint(small only) {
+      margin-top: 0;
+    }
+  }
+}
+
+.get-touch-form {
+  background-color: $secondary-color;
+  border-radius: 112px 112px 0 112px;
+  padding: 33px 88px 10px 125px;
+  overflow: hidden;
+  box-shadow: 0 28px 48px 0 rgba(0, 95, 178, .2);
+  display: inline-block;
+  position: relative;
+  left: 50%;
+  transform: translate(-50%);
+  form {
+    .form-group {
+      width: 250px;
+      float: left;
+      position: relative;
+      margin-right: 125px;
+      padding-top: 10px;
+      margin-bottom: 36px;
+      &:last-child {
+        margin-right: 0;
+      }
+      .form-control {
+        margin-bottom: 0;
+        border: 0;
+        background-color: transparent;
+        border-bottom: 3px solid #FFF;
+        padding: 0 0 5px;
+        color: rgba(255, 255, 255, 0.44);
+        font-size: 15px;
+        &:focus {
+          box-shadow: none;
+          border-bottom: 3px solid $accent-color;
+        }
+        &::placeholder {
+          color: rgba(255, 255, 255, 0.44);
+        }
+      }
+      img {
+        position: absolute;
+        top: 19px;
+        left: -44px;
+      }
+    }
+    .main-btn {
+      float: right;
+      margin-bottom: 0;
+      background-color: #FFF;
+      padding: 26px 55px 19px;
+      border-radius: 112px 112px 0 112px;
+      color: $primary-color;
+      font-size: 15px;
+      font-weight: 600;
+      transition: all .4s ease-in-out;
+      font-weight: bold;
+      text-transform: uppercase;
+      cursor: pointer;
+      will-change: background, border;
+      &:hover {
+        background: transparent;
+        color: #fff;
+        border-color: #fff;
+      }
+    }
+  }
+  @include breakpoint(small only) {
+    padding: 25px 25px 25px 60px;
+    border-radius: 15px 15px 0 15px;
+    form {
+      .form-group {
+        width: 100%;
+        padding-top: 20px;
+        margin-right: 0;
+        img {
+          top: 29px;
+        }
+        &:first-child {
+          padding-top: 0;
+          img {
+            top: 9px;
+          }
+        }
+      }
+      .main-btn {
+        float: none;
+        width: 100%;
+        padding: 10px 55px;
+        margin-top: 25px;
+      }
+    }
+  }
+  &.layout-2 {
+    padding-left: 100px;
+    padding-right: 25px;
+    position: absolute;
+    width: 100%;
+    bottom: 120px;
+    @include breakpoint(small only) {
+      padding-left: 60px;
+      position: relative;
+      bottom: 90px;
+    }
+  }
+}
+
+// contact form style 1
+.wd-f7 .wd-f7-form .contact_style_1 {
+  .columns {
+    input:not([type="submit"]), textarea {
+      border: none;
+      border-bottom: 3px solid #E9EEFF;
+      font-size: 14px;
+      color: #000;
+      border-radius: 0;
+      box-shadow: none;
+      padding: 0 0 10px;
+      margin: 35px 0 0;
+      &:hover, &:focus {
+        background: transparent;
+        border: none;
+        border-bottom: 3px solid $accent-color;
+      }
+    }
+    textarea {
+      min-height: 158px;
+      height: 158px;
+    }
+    input[type="submit"] {
+      background: no-repeat;
+      color: #000;
+      font-size: 14px;
+      border-bottom: 2px solid #000;
+      border-radius: 0;
+      margin-top: 60px;
+      &:hover {
+        color: $primary-color;
+        border-color: $accent-color;
+      }
+    }
+    input::placeholder, textarea::placeholder {
+      color: #999;
+    }
+  }
+}
+
+// contact form style 2
+.wd-f7 .wd-f7-form .contact_style_2 {
+  input:not([type="submit"]), textarea {
+    border: none;
+    border-bottom: 3px solid rgba(255, 255, 255, .75);
+    padding-bottom: 18px;
+    font-size: 14px;
+    color: #000;
+    border-radius: 0;
+    &:hover, &:focus {
+      background: transparent;
+      border: none;
+      border-bottom: 3px solid $accent-color;
+    }
+  }
+  input[type="submit"] {
+    @extend .wd-btn, .btn-solid, .btn-color-5, .hover-color-1, .btn-medium, .btn-round, .icon-after;
+    float: right;
+    @include breakpoint(small only) {
+      padding: 15px 26px 10px;
+      font-size: 11px;
+    }
+  }
+}
+
+ 
+// contact form standard style
+.wd-f7 .wd-f7-form {
+  input, textarea {
+    border-radius: 30px 30px 0 30px;
+    box-shadow: 0 1px 20px rgba(64, 124, 191, .08);
+    font-size: 18px;
+    color: #4D4D4D;
+    font-weight: 300;
+    padding: 12px 26px 9px;
+    line-height: 33px;
+    height: auto;
+    margin-top: 32px;
+    &:hover {
+      border-color: $text-color;
+    }
+    &:focus {
+      border-color: $primary-color;
+    }
+  }
+  textarea {
+    min-height: 253px;
+    height: 253px;
+  }
+  input[type="submit"] {
+    @extend .wd-btn, .btn-solid, .btn-color-1, .hover-color-2, .btn-big, .btn-round;
+    @include breakpoint(small only) {
+      padding: 15px 30px 10px;
+      font-size: 13px;
+    }
+  }
+}
+// contact form style 4
+.wd-f7 .wd-f7-form .contact_style_4 {
+  input, textarea {
+    border-radius: 0;
+    margin-top: 18px;
+  }
+  input[type="submit"] {
+    @extend .wd-btn, .btn-solid, .btn-color-1, .hover-color-2, .btn-big, .btn-round;
+    @include breakpoint(small only) {
+      padding: 15px 30px 10px;
+      font-size: 13px;
+      width: 100%;
+      white-space: pre-wrap;
+    }
+  }
+}
+
+// post password
+.post-password-form input[type="submit"] {
+  @extend .wd-btn, .btn-solid, .btn-color-5, .hover-color-2, .btn-big, .btn-round;
+  border: none;
+  color: #fff;
+}
+
+@include breakpoint(large up) {
+  .your-business-goes {
+    .vc_row.vc_column-gap-35 {
+      margin-left: 32.5px;
+      margin-right: -62.5px;
+    }
+  }
+}

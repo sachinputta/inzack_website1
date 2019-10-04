@@ -1,0 +1,78 @@
+//-------- Grid ---------
+.wd-clients-grid {
+  position: relative;
+  margin-bottom: 60px;
+  width: 100%;
+  ul {
+    border-radius: 16px;
+    margin: 0;
+    padding: 65px;
+    background: #fff;
+    box-shadow: 0px 3px 20px rgba(225, 231, 255, 0.5);
+    position: relative;
+    z-index: 1;
+
+  }
+  .firs-shadow, .sec-shadow {
+    height: 50px;
+    background: #fff;
+    position: absolute;
+    border-radius: 16px;
+    z-index: 0;
+    opacity: 0.9;
+    box-shadow: 0px 3px 20px rgba(225, 231, 255, 0.5);
+  }
+  .firs-shadow {
+    bottom: -15px;
+    width: 96%;
+    left: 2%;
+  }
+  .sec-shadow {
+    bottom: -7px;
+    width: 98%;
+    left: 1%;
+  }
+  li {
+    list-style: none;
+  }
+
+  .wd-clients-container {
+    text-align: center;
+    filter: grayscale(0%);
+    &:hover {
+      filter: grayscale(100%);
+    }
+  }
+}
+
+//---------- Carousel -------
+.wd-clients-carousel {
+  &.nav_arrow {
+    .slick-arrow {
+      display: none !important;
+    }
+  }
+
+  .slick-next, .slick-prev {
+    height: 100%;
+  }
+  .slick-prev::before, .slick-next::before {
+    color: #0a0a0a;
+    font-family: "Font Awesome 5 Free";
+    font-weight: 700;
+    font-size: 50px;
+  }
+  .slick-prev::before {
+    content: '\f104';
+  }
+  .slick-next::before {
+    content: '\f105';
+  }
+  .wd-clients-carousel-item {
+    filter: grayscale(0%);
+    &:hover {
+      filter: grayscale(100%);
+    }
+  }
+}
+

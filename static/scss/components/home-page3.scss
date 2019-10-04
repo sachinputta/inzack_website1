@@ -1,0 +1,223 @@
+.slider_home_tech-company {
+
+  .orbit-wrapper {
+    position: relative;
+    &:hover {
+      .orbit-controls {
+        opacity: 1;
+      }
+    }
+    .orbit-controls {
+      position: absolute;
+      top: 50%;
+      transform: translate(0, -50%);
+      z-index: 9;
+      width: 100%;
+      padding: 0 50px;
+      opacity: 0;
+      transition: all 400ms ease-in-out;
+      @include breakpoint(small only) {
+        display: none;
+      }
+      .orbit-previous, .orbit-next {
+        width: 80px;
+        height: 80px;
+        background: #333;
+        line-height: 80px;
+        text-align: center;
+        border-radius: 50%;
+        font-size: 23px;
+        cursor: pointer;
+        color: rgb(255, 51, 127);
+        i {
+          line-height: inherit;
+        }
+      }
+      .orbit-previous {
+        float: left;
+      }
+      .orbit-next {
+        float: right;
+      }
+    }
+    .orbit-container {
+      list-style: none;
+      margin: 0;
+      .orbit-slide {
+        .orbit-figure {
+          position: relative;
+          .orbit-caption {
+            position: absolute;
+            top: 50%;
+            transform: translate(0, -50%);
+            width: 37%;
+            padding-left: 50px;
+            @include breakpoint(small only) {
+              padding: 0 15px;
+              width: 80%;
+            }
+            h3 {
+              color: #ff337f;
+              font-size: 54px;
+              line-height: 60px;
+              font-weight: 600;
+              font-style: normal;
+              font-family: Martel Sans;
+              text-decoration: none;
+              background-color: transparent;
+              border-color: transparent;
+              border-style: none;
+              border-width: 0px 0px 1px 0px;
+              border-radius: 0px 0px 0px 0px;
+              z-index: 5;
+              min-width: 916px;
+              max-width: 916px;
+              white-space: normal;
+              letter-spacing: -1px;
+              visibility: inherit;
+              transition: none 0s ease 0s;
+              text-align: center;
+              line-height: 60px;
+              border-width: 0px;
+              margin: 0px;
+              padding: 0px;
+              font-weight: 600;
+              font-size: 54px;
+              min-height: 0px;
+              max-height: none;
+              opacity: 1;
+              transform: translate3d(0px, 0px, 0px);
+              transform-origin: 50% 50% 0px;
+              position: relative;
+              top: 467px;
+              left: 154px;
+              @include breakpoint(small only) {
+                position: absolute;
+                transform: translate(-50%, -50%);
+                padding-left: 50px;
+                left: 50%;
+                top: 235px;
+                font-weight: 800;
+                font-size: 26px;
+                line-height: 39px;
+                text-align: center;
+                white-space: normal;
+                min-width: 501px;
+              }
+            }
+            p {
+              z-index: 6;
+              min-width: 715px;
+              max-width: 715px;
+              white-space: normal;
+              font-size: 20px;
+              line-height: 32px;
+              font-weight: 400;
+              color: rgb(148, 157, 197);
+              letter-spacing: 0px;
+              font-family: Open Sans;
+              visibility: inherit;
+              transition: none 0s ease 0s;
+              text-align: center;
+              border-width: 0px;
+              margin: 0px;
+              padding: 0px;
+              min-height: 99px;
+              max-height: 99px;
+              opacity: 1;
+              transform: translate3d(0px, 0px, 0px);
+              transform-origin: 50% 50% 0px;
+              position: relative;
+              top: 467px;
+              left: 233px;
+              @include breakpoint(small only) {
+                position: absolute;
+                transform: translate(-50%, -50%);
+                padding-left: 50px;
+                left: 50%;
+                top: 335px;
+                min-width: 493px;
+                font-size: 16px;
+                line-height: 24px;
+                text-align: inherit;
+
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+  .image1 {
+    position: relative;
+    top: 88px;
+    left: 216px;
+    @include breakpoint(small only) {
+      position: relative;
+      top: 21px;
+      left: 0;
+    }
+  }
+
+  .image2 {
+    position: relative;
+    top: 45px;
+  }
+
+}
+
+.business {
+  .wd_custom_154 {
+    padding-top: 55px;
+    padding-right: 47px;
+    padding-bottom: 70px;
+    padding-left: 47px;
+    background-color: #ffffff;
+    border-radius: 35px;
+  }
+}
+
+.testimonails-home3 {
+  background-image: url("../images/Mask-Group-9.png");
+}
+
+.services-home3 {
+  .wd-boxes {
+    padding-top: 57px;
+    padding-right: 46px;
+    padding-bottom: 74px;
+    padding-left: 55px;
+    background-color: #ffffff;
+    border-radius: 30px;
+
+    @include breakpoint(small only) {
+
+    }
+  }
+}
+
+.wd_border {
+  border-right-width: 1px !important;
+  border-right-color: #b5b5b5 !important;
+  border-right-style: solid !important;
+}
+
+.menu-home3 {
+  #menu-primary-menu {
+    a {
+      color: #001774;
+    }
+  }
+}
+
+.business {
+  .wd-heading {
+    .business-title {
+      @include breakpoint(small only) {
+
+          margin-top: 256px !important;
+
+      }
+    }
+  }
+}

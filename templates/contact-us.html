@@ -1,0 +1,1332 @@
+<!doctype html>
+<html class="no-js" lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact</title>
+    <!-- <link rel="stylesheet" href="css/foundation.min.css">
+    <link rel="stylesheet" href="css/mediaelementplayer.css">
+    <link rel="stylesheet" href="css/slick.min.css">
+    <link rel="stylesheet" href="css/slick-theme.min.css">
+    <link rel="stylesheet" href="css/animate-custom.css">
+    <link rel="stylesheet" href="css/animate.min.css">
+    <link rel="stylesheet" href="css/app.css">
+    <link rel="stylesheet" href="css/fontawesome.min.css"> -->
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/foundation.min.css') }}">
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/mediaelementplayer.css') }}">
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/slick.min.css') }}">
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/slick-theme.min.css') }}">
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/animate-custom.css') }}">
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/animate.min.css') }}">
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/app.css') }}">
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/fontawesome.min.css') }}">
+    <link
+            href="https://fonts.googleapis.com/css?family=Martel+Sans:200,300,400,600,700,800,900|Poppins:100,100i,200,200i,300,300i,400,400i,500,500i,600,600i,700,700i,800,800i,900,900i"
+            rel="stylesheet">
+    <style>
+
+
+
+
+    </style>
+</head>
+<body>
+<header class="l-header creative-layout" data-sticky-container="">
+    <div class="top-bar-container sticky slideUp" style="top: 0px;">
+        <div class="site-title-bar" data-responsive-toggle="mobile-menu" data-hide-for="large">
+            <div class="title-bar-left">
+                <button aria-label="Main Menu" class="menu-icon" type="button" data-toggle="mobile-menu"></button>
+                <span class="site-mobile-title title-bar-title logo"> <a
+                    href="{{ url_for('index') }}" rel="home"
+                        title="Osterisk: VOIP &amp; Cloud Services WordPress Theme" class="active"><img
+                        src="{{url_for('static', filename='images/inzacklogo.png')}}"
+                        alt="logo" style="height: 50px;width:50px"> <span style="color: white;font-size: 35px;">INZACK</span></a> </span></div>
+        </div>
+        <nav class="site-navigation top-bar " role="navigation">
+            <div class="top-bar-left">
+                <div class="site-desktop-title top-bar-title">
+                    <div class="logo-wrapper " data-dropdown-menu="">
+                        <div class="menu-text"><a href="{{ url_for('index') }}" 
+                                                  rel="home" title="Osterisk: VOIP &amp; Cloud Services WordPress Theme"
+                                                  class="active"><img
+                                                  src="{{url_for('static', filename='images/inzacklogo.png')}}"
+                                alt="logo" style="height: 50px;width:50px"><span style="color: white;font-size: 35px; margin-left:10px;">INZACK</span></a></div>
+                    </div>
+                </div>
+            </div>
+            <div class="top-bar-right" style="color: #fff;">
+                <ul id="menu-primary-menu" class="desktop-menu menu">
+                    <li
+                            class=" menu-item menu-item-type-post_type menu-item-object-page menu-item-home current-menu-item page_item page-item-1124 current_page_item current-menu-ancestor current-menu-parent current_page_parent current_page_ancestor menu-item-has-children active is-dropdown-submenu-parent opens-right not-click has-dropdown not-click color-2 menu-item-home">
+                        <a href="{{ url_for('index') }}" >HOME</a>
+                        <!-- <ul class="submenu is-dropdown-submenu ">
+                            <li
+                                    class=" menu-item menu-item-type-post_type menu-item-object-page menu-item-home current-menu-item page_item page-item-1124 current_page_item active color-2 menu-item-home">
+                                <a href="index.html">Home – Cloud
+                                    Communication</a></li>
+                            <li class=" menu-item menu-item-type-post_type menu-item-object-page color-2 "><a
+                                    href="home2.html">Home
+                                – Cloud Hosting</a></li>
+                            <li class=" menu-item menu-item-type-post_type menu-item-object-page color-2 "><a
+                                    href="home3.html">Home –
+                                Tech Company</a></li>
+                            <li class=" menu-item menu-item-type-post_type menu-item-object-page color-2 "><a
+                                    href="home4.html">Home –
+                                Business</a></li>
+                            <li class=" menu-item menu-item-type-post_type menu-item-object-page color-2 "><a
+                                    href="home5.html">Home
+                                – SAAS App Landing</a></li>
+                            <li class=" menu-item menu-item-type-post_type menu-item-object-page color-2 "><a
+                                    href="home6.html">Home
+                                – Digital Agency</a></li>
+                        </ul> -->
+                    </li>
+                    <!-- <li
+                            class=" menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children is-dropdown-submenu-parent opens-right not-click has-dropdown not-click color-3 menu-item-has-children">
+                        <a href="#">Pages</a>
+                        <ul class="submenu is-dropdown-submenu ">
+                            <li class=" menu-item menu-item-type-post_type menu-item-object-page color-3 "><a
+                                    href="about.html">About Us</a>
+                            </li>
+                            <li class=" menu-item menu-item-type-post_type menu-item-object-page color-3 "><a
+                                    href="pricing.html">Pricing</a></li>
+                            <li class=" menu-item menu-item-type-post_type menu-item-object-page color-3 "><a
+                                    href="team.html">Team</a></li>
+                            <li class=" menu-item menu-item-type-post_type menu-item-object-page color-3 "><a
+                                    href="Services.html">Services</a>
+                            </li>
+                            <li class=" menu-item menu-item-type-post_type menu-item-object-page color-3 "><a
+                                    href="about.html">About</a></li>
+                            <li class=" menu-item menu-item-type-custom menu-item-object-custom color-3 "><a
+                                    href="#">Page
+                                404</a></li>
+                        </ul>
+                    </li> -->
+                    <li
+                            class=" menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children is-dropdown-submenu-parent opens-right not-click has-dropdown not-click color-4 menu-item-has-children">
+                        <a href="{{ url_for('about') }}" >ABOUT US</a>
+                        <!-- <ul class="submenu is-dropdown-submenu ">
+                            <li class=" menu-item menu-item-type-post_type menu-item-object-page color-4 "><a
+                                    href="deliveries.html">Deliveries
+                                &amp; Collection</a></li>
+                            <li class=" menu-item menu-item-type-post_type menu-item-object-page color-4 "><a
+                                    href="word-wide-customers.html">Word
+                                Wide Customers</a></li>
+                            <li
+                                    class=" menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children is-dropdown-submenu-parent opens-right not-click has-dropdown not-click color-4 menu-item-has-children">
+                                <a href="awesome-team.html">Awesome
+                                    Team</a>
+                                <ul class="submenu is-dropdown-submenu ">
+                                    <li class=" menu-item menu-item-type-post_type menu-item-object-page color-4 "><a
+                                            href="24-7-support.html">24/7
+                                        Support</a></li>
+                                    <li class=" menu-item menu-item-type-post_type menu-item-object-page color-4 "><a
+                                            href="outbound-calls.html">Outbound
+                                        Calls</a></li>
+                                    <li class=" menu-item menu-item-type-post_type menu-item-object-page color-4 "><a
+                                            href="inbound-calls.html">Inbound
+                                        Calls</a></li>
+                                </ul>
+                            </li>
+                        </ul> -->
+                    </li>
+                    <!-- <li
+                            class=" menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children is-dropdown-submenu-parent opens-right not-click has-dropdown not-click color-5 menu-item-has-children">
+                        <a href="#">Shop</a>
+                        <ul class="submenu is-dropdown-submenu ">
+                            <li class=" menu-item menu-item-type-post_type menu-item-object-page color-5 "><a
+                                    href="shop.html">Shop I</a></li>
+                            <li class=" menu-item menu-item-type-post_type menu-item-object-page color-5 "><a
+                                    href="shop2.html">Shop II</a></li>
+                            <li class=" menu-item menu-item-type-post_type menu-item-object-product color-5 "><a
+                                    href="singleProduct.html">Single
+                                Product</a></li>
+                        </ul>
+                    </li> -->
+                    <!-- <li
+                            class=" menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children is-dropdown-submenu-parent opens-right not-click has-dropdown not-click color-6 menu-item-has-children">
+                        <a href="#">Blog</a>
+                        <ul class="submenu is-dropdown-submenu ">
+                            <li><a
+                                    href="blog.html">Blog Classic</a>
+                            </li>
+                            <li><a
+                                    href="blog-grid.html">Blog grid</a>
+                            </li>
+                            <li class=" menu-item menu-item-type-post_type menu-item-object-post color-6 "><a
+                                    href="singlePost.html">Single
+                                Post</a></li>
+                        </ul>
+                    </li> -->
+                    <li
+                            class=" menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children is-dropdown-submenu-parent opens-right not-click has-dropdown not-click mega-menu color-7 menu-item-has-children">
+                        <a href="{{ url_for('index') }}" >Elements</a>
+                        <!-- <ul class="submenu is-dropdown-submenu ">
+                            <li class=" mega-menu-column">
+                                <ul>
+                                    <li class=" menu-item menu-item-type-post_type menu-item-object-page color-7 "><a
+                                            href="accordions.html">Accordions</a>
+                                    </li>
+                                    <li class=" menu-item menu-item-type-post_type menu-item-object-page color-7 "><a
+                                            href="tabs.html">Tabs</a></li>
+                                    <li class=" menu-item menu-item-type-post_type menu-item-object-page color-7 "><a
+                                            href="button.html">Button</a>
+                                    </li>
+                                    <li class=" menu-item menu-item-type-post_type menu-item-object-page color-7 "><a
+                                            href="headings.html">Headings</a>
+                                    </li>
+                                    <li class=" menu-item menu-item-type-post_type menu-item-object-page color-7 "></li>
+                                </ul>
+                            </li>
+                            <li class=" mega-menu-column">
+                                <ul>
+                                    <li><a href="forms-input.html">Forms
+                                        &amp; Input</a></li>
+                                    <li class=" menu-item menu-item-type-post_type menu-item-object-page color-7 "><a
+                                            href="text-with-icon.html">Text
+                                        with Icon</a></li>
+                                    <li class=" menu-item menu-item-type-post_type menu-item-object-page color-7 "><a
+                                            href="count-up.html">Count
+                                        up</a></li>
+                                    <li class=" menu-item menu-item-type-post_type menu-item-object-page color-7 "><a
+                                            href="team-2.html">Team</a></li>
+                                    <li class=" menu-item menu-item-type-post_type menu-item-object-page color-7 "></li>
+                                </ul>
+                            </li>
+                            <li class=" mega-menu-column">
+                                <ul>
+                                    <li><a href="testimonail.html">Testimonail</a>
+                                    </li>
+                                    <li class=" menu-item menu-item-type-post_type menu-item-object-page color-7 "><a
+                                            href="progress-bar.html">Progress
+                                        Bar</a></li>
+                                    <li class=" menu-item menu-item-type-post_type menu-item-object-page color-7 "><a
+                                            href="clients.html">Clients</a>
+                                    </li>
+                                    <li class=" menu-item menu-item-type-post_type menu-item-object-page color-7 "><a
+                                            href="blog-shortcode.html">blog
+                                        styles</a></li>
+                                    <li class=" menu-item menu-item-type-post_type menu-item-object-page color-7 "></li>
+                                </ul>
+                            </li>
+                            <li class=" mega-menu-column">
+                                <ul>
+                                    <li><a
+                                            href="portfolio-standard.html">Portfolio
+                                        Standard</a></li>
+                                    <li class=" menu-item menu-item-type-post_type menu-item-object-page color-7 "><a
+                                            href="portfolio-gallery.html">Portfolio
+                                        Gallery</a></li>
+                                    <li class=" menu-item menu-item-type-post_type menu-item-object-page color-7 "><a
+                                            href="portfolio-masonry-style.html">Portfolio
+                                        Masonry</a></li>
+                                    <li class=" menu-item menu-item-type-post_type menu-item-object-page color-7 "><a
+                                            href="portfolio-isotope.html">Portfolio
+                                        Isotope</a></li>
+                                </ul>
+                            </li>
+                        </ul> -->
+                    </li>
+                    <li class=" menu-item menu-item-type-post_type menu-item-object-page color-8 "><a
+                        href="{{ url_for('contact') }}" >Contact us</a>
+                    </li>
+                </ul>
+                <div class="header-cta show-for-large-up large-screen"><a
+                    href="{{ url_for('index') }}" 
+                        class="wd-btn btn-solid btn-color-2 hover-color-1 btn-small btn-round icon-after"> Login </a></div>
+                <nav class="mobile-menu vertical menu" id="mobile-menu" role="navigation">
+                    <ul id="menu-primary-menu-1" class="vertical menu" data-accordion-menu=""
+                        data-submenu-toggle="true">
+                        <li id="menu-item-2609"
+                            class="menu-item menu-item-type-post_type menu-item-object-page menu-item-home current-menu-item page_item page-item-1124 current_page_item current-menu-ancestor current-menu-parent current_page_parent current_page_ancestor menu-item-has-children menu-item-2609">
+                            <a href="index.html">Home</a>
+                            <ul class="vertical nested menu">
+                                <li id="menu-item-2837"
+                                    class="menu-item menu-item-type-post_type menu-item-object-page menu-item-home current-menu-item page_item page-item-1124 current_page_item menu-item-2837">
+                                    <a href="index.html">Home – Cloud
+                                        Communication</a></li>
+                                <li id="menu-item-2610"
+                                    class="menu-item menu-item-type-post_type menu-item-object-page menu-item-2610">
+                                    <a href="home2.html">Home
+                                        – Cloud Hosting</a></li>
+                                <li id="menu-item-2839"
+                                    class="menu-item menu-item-type-post_type menu-item-object-page menu-item-2839">
+                                    <a href="home3.html">Home
+                                        – Tech Company</a></li>
+                                <li id="menu-item-2612"
+                                    class="menu-item menu-item-type-post_type menu-item-object-page menu-item-2612">
+                                    <a href="home4.html">Home
+                                        – Business</a></li>
+                                <li id="menu-item-2832"
+                                    class="menu-item menu-item-type-post_type menu-item-object-page menu-item-2832">
+                                    <a
+                                            href="home5.html">Home
+                                        – SAAS App Landing</a></li>
+                                <li id="menu-item-2808"
+                                    class="menu-item menu-item-type-post_type menu-item-object-page menu-item-2808">
+                                    <a
+                                            href="home6.html">Home
+                                        – Digital Agency</a></li>
+                            </ul>
+                        </li>
+                        <li id="menu-item-1275"
+                            class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-1275">
+                            <a
+                                    href="#">Pages</a>
+                            <ul class="vertical nested menu">
+                                <li id="menu-item-970"
+                                    class="menu-item menu-item-type-post_type menu-item-object-page menu-item-970"><a
+                                        href="about.html">About
+                                    Us</a></li>
+                                <li id="menu-item-359"
+                                    class="menu-item menu-item-type-post_type menu-item-object-page menu-item-359"><a
+                                        href="pricing.html">Pricing</a>
+                                </li>
+                                <li id="menu-item-2830"
+                                    class="menu-item menu-item-type-post_type menu-item-object-page menu-item-2830">
+                                    <a href="team-2.html">Team</a>
+                                </li>
+                                <li id="menu-item-1807"
+                                    class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1807">
+                                    <a
+                                            href="services.html">Services</a>
+                                </li>
+                                <li id="menu-item-1964"
+                                    class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1964">
+                                    <a href="about-2.html">About</a>
+                                </li>
+                                <li id="menu-item-2809"
+                                    class="menu-item menu-item-type-custom menu-item-object-custom menu-item-2809">
+                                    <a
+                                            href="#">Page
+                                        404</a></li>
+                            </ul>
+                        </li>
+                        <li id="menu-item-2557"
+                            class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-2557">
+                            <a
+                                    href="#">Services</a>
+                            <ul class="vertical nested menu">
+                                <li id="menu-item-366"
+                                    class="menu-item menu-item-type-post_type menu-item-object-page menu-item-366"><a
+                                        href="deliveries.html">Deliveries
+                                    &amp; Collection</a></li>
+                                <li id="menu-item-369"
+                                    class="menu-item menu-item-type-post_type menu-item-object-page menu-item-369"><a
+                                        href="word-wide-customers.html">Word
+                                    Wide Customers</a></li>
+                                <li id="menu-item-367"
+                                    class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-367">
+                                    <a href="awesome-team.html">Awesome
+                                        Team</a>
+                                    <ul class="vertical nested menu">
+                                        <li id="menu-item-368"
+                                            class="menu-item menu-item-type-post_type menu-item-object-page menu-item-368">
+                                            <a
+                                                    href="24-7-support.html">24/7
+                                                Support</a></li>
+                                        <li id="menu-item-371"
+                                            class="menu-item menu-item-type-post_type menu-item-object-page menu-item-371">
+                                            <a
+                                                    href="outbound-calls.html">Outbound
+                                                Calls</a></li>
+                                        <li id="menu-item-370"
+                                            class="menu-item menu-item-type-post_type menu-item-object-page menu-item-370">
+                                            <a
+                                                    href="inbound-calls.html">Inbound
+                                                Calls</a></li>
+                                    </ul>
+                                </li>
+                            </ul>
+                        </li>
+                        <li id="menu-item-2810"
+                            class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-2810">
+                            <a
+                                    href="#">Shop</a>
+                            <ul class="vertical nested menu">
+                                <li id="menu-item-561"
+                                    class="menu-item menu-item-type-post_type menu-item-object-page menu-item-561"><a
+                                        href="shop.html">Shop I</a></li>
+                                <li id="menu-item-1052"
+                                    class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1052">
+                                    <a href="shop2.html">Shop II</a>
+                                </li>
+                                <li id="menu-item-2835"
+                                    class="menu-item menu-item-type-post_type menu-item-object-product menu-item-2835">
+                                    <a
+                                            href="singleProduct.html">Single
+                                        Product</a></li>
+                            </ul>
+                        </li>
+                        <li id="menu-item-2836"
+                            class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-2836">
+                            <a
+                                    href="#">Blog</a>
+                            <ul class="vertical nested menu">
+                                <li id="menu-item-357"
+                                    class="menu-item menu-item-type-post_type menu-item-object-page menu-item-357"><a
+                                        href="blog.html">Blog Classic</a>
+                                </li>
+                                <li id="menu-item-2857"
+                                    class="menu-item menu-item-type-post_type menu-item-object-page menu-item-2857">
+                                    <a href="blog-grid.html">Blog
+                                        grid</a></li>
+                                <li id="menu-item-2858"
+                                    class="menu-item menu-item-type-post_type menu-item-object-post menu-item-2858">
+                                    <a
+                                            href="singlePost.html">
+                                        Single Post</a></li>
+                            </ul>
+                        </li>
+                        <li id="menu-item-1276"
+                            class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-1276">
+                            <a
+                                    href="#">Elements</a>
+                            <ul class="vertical nested menu">
+                                <li id="menu-item-1371"
+                                    class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1371">
+                                    <a href="accordions.html">Accordions</a>
+                                </li>
+                                <li id="menu-item-1370"
+                                    class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1370">
+                                    <a href="tabs.html">Tabs</a>
+                                </li>
+                                <li id="menu-item-1277"
+                                    class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1277">
+                                    <a href="button.html">Button</a>
+                                </li>
+                                <li id="menu-item-1368"
+                                    class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1368">
+                                    <a
+                                            href="headings.html">Headings</a>
+                                </li>
+                                <li id="menu-item-1369"
+                                    class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1369">
+                                    <a href="forms-input.html">Forms
+                                        &amp; Input</a></li>
+                                <li id="menu-item-1372"
+                                    class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1372">
+                                    <a href="text-with-icon.html">Text
+                                        with Icon</a></li>
+                                <li id="menu-item-1391"
+                                    class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1391">
+                                    <a href="count-up.html">Count
+                                        up</a></li>
+                                <li id="menu-item-1392"
+                                    class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1392">
+                                    <a href="team-2.html">Team</a>
+                                </li>
+                                <li id="menu-item-1393"
+                                    class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1393">
+                                    <a href="testimonail.html">Testimonail</a>
+                                </li>
+                                <li id="menu-item-1421"
+                                    class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1421">
+                                    <a href="progress-bar.html">Progress
+                                        Bar</a></li>
+                                <li id="menu-item-1424"
+                                    class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1424">
+                                    <a href="clients.html">Clients</a>
+                                </li>
+                                <li id="menu-item-1423"
+                                    class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1423">
+                                    <a href="blog-shortcode.html">blog
+                                        styles</a></li>
+                                <li id="menu-item-2825"
+                                    class="menu-item menu-item-type-post_type menu-item-object-page menu-item-2825">
+                                    <a href="portfolio-standard.html">Portfolio
+                                        Standard</a></li>
+                                <li id="menu-item-2309"
+                                    class="menu-item menu-item-type-post_type menu-item-object-page menu-item-2309">
+                                    <a href="portfolio-gallery.html">Portfolio
+                                        Gallery</a></li>
+                                <li id="menu-item-2307"
+                                    class="menu-item menu-item-type-post_type menu-item-object-page menu-item-2307">
+                                    <a
+                                            href="portfolio-masonry-style.html">Portfolio
+                                        Masonry</a></li>
+                                <li id="menu-item-2308"
+                                    class="menu-item menu-item-type-post_type menu-item-object-page menu-item-2308">
+                                    <a href="portfolio-isotope.html">Portfolio
+                                        Isotope</a></li>
+                            </ul>
+                        </li>
+                        <li id="menu-item-1701"
+                            class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1701"><a
+                                href="contact-us.html">Contact us</a>
+                        </li>
+                    </ul>
+                    <div class="header-cta show-for-medium-down"><a
+                            href="contact-us.html"
+                            class="wd-btn btn-solid btn-color-2 hover-color-1 btn-small btn-round icon-after"> Request
+                        Quote </a></div>
+                </nav>
+            </div>
+        </nav>
+    </div>
+</header>
+<section class="titlebar ">
+    <div class="row">
+        <div>
+            <h1 id="page-title" class="title" style="opacity: 1; top: 0px; transform: matrix(1, 0, 0, 1, 0, 0);">
+                Contact</h1>
+        </div>
+        <div>
+            <ul class="breadcrumbs">
+                <li><a href="index.html">Home</a></li>
+                <li><strong> Services</strong></li>
+            </ul>
+        </div>
+    </div>
+</section>
+<div class="clearfex"></div>
+<section class="contact-box">
+    <div class="row">
+        <div class="large-5 small-12 columns">
+            <div class="wd-heading text-left  " style="max-width: 100%">
+                <h2 style="margin:0;" class="title_c"> Get in touch </h2>
+                <p style="font-weight:300;font-size:17px;" class="sub_title_c">
+                    Efficiently unleash cross-media information without cross-media value. Quickly maximize timely
+                    deliverable. Exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo non habent
+                    claritatem insitamconsequat duis autem facilisis at vero eros </p>
+            </div>
+            <div class="wd_empty_space" data-heightmobile="20" data-heighttablet="20" data-heightdesktop="20"
+                 style="height: 20px;">
+            </div>
+            <div class="wd-btn-wrap text-left "><a href=""
+                                                   class="wd-btn btn-solid btn-color-2 hover-color-1 btn-medium btn-round icon-hs-1 icon-before">
+			 <span class="button-wrp">
+					 	<i class="fa fa-envelope-o before"></i>
+					 	 <span>Say Hello</span>
+			  </span>
+            </a>
+            </div>
+        </div>
+        <div class="large-7 small-12columns">
+            <div class="wd_custom_contact text-icon text-icon--icon-left_position boxes  clearfix"
+                 style="overflow: hidden;">
+                <div class="text-icon__container   ">
+                    <div class="text-icon__icon-box">
+                        <img src="http://themes.webdevia.com/osterisk-voip-cloud-services-wordpress-theme/wp-content/uploads/2018/09/mail-4709_4f312e0a-56b3-4dbe-be5f-3ffe7a1982df.png"
+                             alt="icon">
+                    </div>
+                    <div class="text-icon__content-box">
+                        <h4 class="text-icon__title">
+                            EMAIL ADDRESS </h4>
+                        <p class="text-icon__text">vijay@inzack.com</p>
+                    </div>
+                </div>
+            </div>
+            <div class="wd_custom_contact text-icon text-icon--icon-left_position boxes  clearfix"
+                 style="overflow: hidden;">
+                <div class="text-icon__container   ">
+                    <div class="text-icon__icon-box">
+                        <img src="http://themes.webdevia.com/osterisk-voip-cloud-services-wordpress-theme/wp-content/uploads/2018/09/message-app-4672_bb03b2ae-781b-4a63-aeff-c64156b65ef3.png"
+                             alt="icon">
+                    </div>
+                    <div class="text-icon__content-box">
+                        <h4 class="text-icon__title">
+                            PHONE NUMBER </h4>
+                        <p class="text-icon__text">+917093195327 - Office</p>
+                    </div>
+                </div>
+            </div>
+            <div class="wd_custom_contact text-icon text-icon--icon-left_position boxes  clearfix"
+                 style="overflow: hidden;">
+                <div class="text-icon__container   ">
+                    <div class="text-icon__icon-box">
+                        <img src="http://themes.webdevia.com/osterisk-voip-cloud-services-wordpress-theme/wp-content/uploads/2018/09/map-marker.png"
+                             alt="icon">
+                    </div>
+                    <div class="text-icon__content-box">
+                        <h4 class="text-icon__title">
+                            OUR ADDRESS </h4>
+                        <p class="text-icon__text">T-HUB Gachibowli,IIIT-H, HYDERABAD</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<div class="clearfex"></div>
+<section class="contact-maps">
+    <div class="wd_empty_space" data-heightmobile="40" data-heighttablet="40" data-heightdesktop="112" style="height: 112px;">
+    </div>
+    <div class="map">
+        <div id="map-canvas" class="map-canvas" data-id="map-canvas" style="height: 338px"></div>
+    </div>
+    <div class="wd_empty_space" data-heightmobile="40" data-heighttablet="40" data-heightdesktop="112" style="height: 112px;">
+    </div>
+</section>
+<!-- <div class="clearfex"></div>
+<section class="contact-form">
+    <div class="row">
+        <div class="large-12 small-12 columns">
+            <div role="form" class="wd-f7"  >
+            <form action="/osterisk-voip-cloud-services-wordpress-theme/contact-us/#wd-f7-f1468-p85-o1" method="post"  class="wd-f7-form" novalidate="novalidate">
+                <div class="contact_style_3">
+                    <div class="large-12 small-12 columns">
+                     <input type="email" value="" size="40"   class="wd-f7-form-control "
+                           placeholder="Your Email">
+                    </div>
+                    <div class="large-6 small-12 columns">
+                        <input  type="text" name="your-name" value="" size="40" class="wd-f7-form-control "
+                      placeholder="Enter your name..."></div>
+                    <div class="large-6 small-12 columns">
+                        <input  type="text" value="" size="40" class="wd-f7-form-control "
+                           placeholder="Phone"></div>
+                    <div class="large-12 small-12 columns">
+                        <textarea  name="your-message" cols="40" rows="10" class="wd-f7-form-control "
+                        placeholder="Here goes your message"></textarea>
+                        <input type="submit" value="Click Here to Get Access Now"  class="wd-f7-form-control wd-f7-submit">
+                    </div>
+                </div>
+            </form></div>
+        </div>
+    </div>
+    <div class="wd_empty_space" data-heightmobile="20" data-heighttablet="20" data-heightdesktop="20"   style="height: 40px;">    </div>
+
+</section> -->
+<div class="clearfex"></div>
+<section class="first-footer" style="color: #fff;"><h3 class="hide">Footer</h3>
+    <div class="row">
+        <section class="block">
+            <div class="large-3 medium-6 columns">
+                <div id="text-3" class=" widget_text ">
+                    <div class="textwidget"><p><img style="margin-bottom: 30px;"
+                        src="{{url_for('static', filename='images/inzacklogoimage.png')}}"
+                                                 
+                                                    alt="Inzack"></p>
+                        <p>Bring to the table win-win survival strategies to ensure proactive domination. At the end of
+                            the day,
+                            going forward, a new normal that has evolved from generation.</p></div>
+                </div>
+            </div>
+            <div class="large-3 medium-6 columns">
+                <div id="text-4" class=" widget_text "><h4 class="block-title">Business Hours</h4>
+                    <div class="textwidget"><h6>Opining Days :</h6>
+                        <div>Monday – Friday : 9am to 20 pm</div>
+                        <div style="margin-bottom: 20px;">Saturday : 9am to 17 pm</div>
+                        <h6>Vacations :</h6>
+                        <div>All Sunday Days</div>
+                        <div>All Official Holidays</div>
+                    </div>
+                </div>
+            </div>
+            <div class="large-3 medium-6 columns">
+                <div id="text-5" class=" widget_text "><h4 class="block-title">Practice Areas</h4>
+                    <div class="textwidget">
+                        <div class="menu-left-menu-container">
+                            <ul id="menu-left-menu" class="menu">
+                                <li id="menu-item-2515"
+                                    class="menu-item menu-item-type-post_type menu-item-object-page menu-item-2515">
+                                    <a href="#">Services</a></li>
+                                <li id="menu-item-2516"
+                                    class="menu-item menu-item-type-post_type menu-item-object-page menu-item-2516">
+                                    <a href="#">Strategic Planning</a></li>
+                                <li id="menu-item-2517"
+                                    class="menu-item menu-item-type-post_type menu-item-object-page menu-item-2517">
+                                    <a href="#">Audit &amp; Assurance</a></li>
+                                <li id="menu-item-2518"
+                                    class="menu-item menu-item-type-post_type menu-item-object-page menu-item-2518">
+                                    <a href="#">Business Services</a></li>
+                                <li id="menu-item-2519"
+                                    class="menu-item menu-item-type-post_type menu-item-object-page menu-item-2519">
+                                    <a href="#">Sales &amp; Trading</a></li>
+                                <li id="menu-item-2520"
+                                    class="menu-item menu-item-type-post_type menu-item-object-page menu-item-2520">
+                                    <a href="#">Investment Banking</a></li>
+                                <li id="menu-item-2521"
+                                    class="menu-item menu-item-type-post_type menu-item-object-page menu-item-2521">
+                                    <a href="#">Chemical Industry</a></li>
+                                <li id="menu-item-2522"
+                                    class="menu-item menu-item-type-post_type menu-item-object-page menu-item-2522">
+                                    <a href="#">Investment Management</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="large-3 medium-6 columns">
+                <div id="text-7" class=" widget_text "><h4 class="block-title">Instagram</h4>
+                    <div class="textwidget"><p><img class="alignleft wp-image-3011 size-full"
+                        src="{{url_for('static', filename='images/instagram.jpg')}}">
+                    </p></div>
+                </div>
+            </div>
+        </section>
+    </div>
+</section>
+
+<footer class="second-footer">
+    <div class="row">
+        <div class="copyright medium-3 large-3 columns"> 2019 Inzack All rights reserved.</div>
+        <div class="powered medium-6 large-6 columns">
+            <section class="block">
+                <div class="menu-menu-container">
+                    <!-- <ul id="menu-menu" class="menu">
+                        <li class=" menu-item menu-item-type-post_type menu-item-object-page color-9 "><a
+                                href="#">Checkout</a></li>
+                        <li class=" menu-item menu-item-type-post_type menu-item-object-page color-10 "><a
+                                href="#">Cart</a></li>
+                        <li class=" menu-item menu-item-type-post_type menu-item-object-page color-11 "><a
+                                href="#">Shop</a></li>
+                        <li class=" menu-item menu-item-type-post_type menu-item-object-page color-12 "><a
+                                href="#">Columns</a></li>
+                    </ul> -->
+                </div>
+            </section>
+        </div>
+        <div class="footer-social-media medium-3 large-3 columns">
+            <ul class="footer-social-media">
+                <li class=""><a href="https://www.facebook.com/vijay.sagi.982"><i class="fab fa-facebook-f"></i></a></li>
+                <li class=""><a href="https://www.linkedin.com/in/vijay-krishna-6681019/"><i class="fab fa-linkedin-in"></i></a></li>
+                <li class=""><a href="#"><i class="fab fa-google-plus-g"></i></a></li>
+                <!-- <li class=""><a href="#"><i class="fab fa-instagram"></i></a></li> -->
+            </ul>
+        </div>
+    </div>
+</footer>
+
+<script type="text/javascript" src="{{ url_for('static', filename='js/jquery.js') }}"></script>
+<script type="text/javascript" src="{{ url_for('static', filename='js/hoverIntent.min.js') }}"></script>
+<script type="text/javascript" src="{{ url_for('static', filename='js/wd-script.min.js') }}"></script>
+<!-- <script src="js/jquery.js"></script> -->
+<script type="text/javascript" src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCuddKL1Z2WR8og1v2UZpdI7raxkmVJPaI&amp;ver=4.4.2"></script>
+<!-- <script src="js/hoverIntent.min.js"></script> -->
+<!-- <script src="js/wd-script.min.js"></script> -->
+<script>
+    jQuery(function ($) {
+
+        var osterisk_map_style = 'wa_map_style4';
+        switch (osterisk_map_style) {
+            case "wa_map_style1":
+                var styles = [
+                    {
+                        "featureType": "administrative",
+                        "elementType": "labels.text.fill",
+                        "stylers": [
+                            {
+                                "color": "#444444"
+                            }
+                        ]
+                    },
+                    {
+                        "featureType": "landscape",
+                        "elementType": "all",
+                        "stylers": [
+                            {
+                                "color": "#f2f2f2"
+                            }
+                        ]
+                    },
+                    {
+                        "featureType": "poi",
+                        "elementType": "all",
+                        "stylers": [
+                            {
+                                "visibility": "off"
+                            }
+                        ]
+                    },
+                    {
+                        "featureType": "road",
+                        "elementType": "all",
+                        "stylers": [
+                            {
+                                "saturation": -100
+                            },
+                            {
+                                "lightness": 45
+                            }
+                        ]
+                    },
+                    {
+                        "featureType": "road.highway",
+                        "elementType": "all",
+                        "stylers": [
+                            {
+                                "visibility": "simplified"
+                            }
+                        ]
+                    },
+                    {
+                        "featureType": "road.arterial",
+                        "elementType": "labels.icon",
+                        "stylers": [
+                            {
+                                "visibility": "off"
+                            }
+                        ]
+                    },
+                    {
+                        "featureType": "transit",
+                        "elementType": "all",
+                        "stylers": [
+                            {
+                                "visibility": "off"
+                            }
+                        ]
+                    },
+                    {
+                        "featureType": "water",
+                        "elementType": "all",
+                        "stylers": [
+                            {
+                                "color": "#24265c"
+                            },
+                            {
+                                "visibility": "on"
+                            }
+                        ]
+                    }
+                ];
+                break;
+            case "wa_map_style2":
+                var styles = [
+                    {
+                        "featureType": "water",
+                        "elementType": "geometry",
+                        "stylers": [
+                            {
+                                "color": "#e9e9e9"
+                            },
+                            {
+                                "lightness": 17
+                            }
+                        ]
+                    },
+                    {
+                        "featureType": "landscape",
+                        "elementType": "geometry",
+                        "stylers": [
+                            {
+                                "color": "#f5f5f5"
+                            },
+                            {
+                                "lightness": 20
+                            }
+                        ]
+                    },
+                    {
+                        "featureType": "road.highway",
+                        "elementType": "geometry.fill",
+                        "stylers": [
+                            {
+                                "color": "#ffffff"
+                            },
+                            {
+                                "lightness": 17
+                            }
+                        ]
+                    },
+                    {
+                        "featureType": "road.highway",
+                        "elementType": "geometry.stroke",
+                        "stylers": [
+                            {
+                                "color": "#ffffff"
+                            },
+                            {
+                                "lightness": 29
+                            },
+                            {
+                                "weight": 0.2
+                            }
+                        ]
+                    },
+                    {
+                        "featureType": "road.arterial",
+                        "elementType": "geometry",
+                        "stylers": [
+                            {
+                                "color": "#ffffff"
+                            },
+                            {
+                                "lightness": 18
+                            }
+                        ]
+                    },
+                    {
+                        "featureType": "road.local",
+                        "elementType": "geometry",
+                        "stylers": [
+                            {
+                                "color": "#ffffff"
+                            },
+                            {
+                                "lightness": 16
+                            }
+                        ]
+                    },
+                    {
+                        "featureType": "poi",
+                        "elementType": "geometry",
+                        "stylers": [
+                            {
+                                "color": "#f5f5f5"
+                            },
+                            {
+                                "lightness": 21
+                            }
+                        ]
+                    },
+                    {
+                        "featureType": "poi.park",
+                        "elementType": "geometry",
+                        "stylers": [
+                            {
+                                "color": "#dedede"
+                            },
+                            {
+                                "lightness": 21
+                            }
+                        ]
+                    },
+                    {
+                        "elementType": "labels.text.stroke",
+                        "stylers": [
+                            {
+                                "visibility": "on"
+                            },
+                            {
+                                "color": "#ffffff"
+                            },
+                            {
+                                "lightness": 16
+                            }
+                        ]
+                    },
+                    {
+                        "elementType": "labels.text.fill",
+                        "stylers": [
+                            {
+                                "saturation": 36
+                            },
+                            {
+                                "color": "#333333"
+                            },
+                            {
+                                "lightness": 40
+                            }
+                        ]
+                    },
+                    {
+                        "elementType": "labels.icon",
+                        "stylers": [
+                            {
+                                "visibility": "off"
+                            }
+                        ]
+                    },
+                    {
+                        "featureType": "transit",
+                        "elementType": "geometry",
+                        "stylers": [
+                            {
+                                "color": "#f2f2f2"
+                            },
+                            {
+                                "lightness": 19
+                            }
+                        ]
+                    },
+                    {
+                        "featureType": "administrative",
+                        "elementType": "geometry.fill",
+                        "stylers": [
+                            {
+                                "color": "#fefefe"
+                            },
+                            {
+                                "lightness": 20
+                            }
+                        ]
+                    },
+                    {
+                        "featureType": "administrative",
+                        "elementType": "geometry.stroke",
+                        "stylers": [
+                            {
+                                "color": "#fefefe"
+                            },
+                            {
+                                "lightness": 17
+                            },
+                            {
+                                "weight": 1.2
+                            }
+                        ]
+                    }
+                ];
+                break;
+            case "wa_map_style3":
+                var styles = [{
+                    "featureType": "water",
+                    "elementType": "geometry",
+                    "stylers": [{
+                        "color": "#193341"
+                    }]
+                }, {
+                    "featureType": "landscape",
+                    "elementType": "geometry",
+                    "stylers": [{
+                        "color": "#2c5a71"
+                    }]
+                }, {
+                    "featureType": "road",
+                    "elementType": "geometry",
+                    "stylers": [{
+                        "color": "#29768a"
+                    }, {
+                        "lightness": -37
+                    }]
+                }, {
+                    "featureType": "poi",
+                    "elementType": "geometry",
+                    "stylers": [{
+                        "color": "#406d80"
+                    }]
+                }, {
+                    "featureType": "transit",
+                    "elementType": "geometry",
+                    "stylers": [{
+                        "color": "#406d80"
+                    }]
+                }, {
+                    "elementType": "labels.text.stroke",
+                    "stylers": [{
+                        "visibility": "on"
+                    }, {
+                        "color": "#3e606f"
+                    }, {
+                        "weight": 2
+                    }, {
+                        "gamma": 0.84
+                    }]
+                }, {
+                    "elementType": "labels.text.fill",
+                    "stylers": [{
+                        "color": "#ffffff"
+                    }]
+                }, {
+                    "featureType": "administrative",
+                    "elementType": "geometry",
+                    "stylers": [{
+                        "weight": 0.6
+                    }, {
+                        "color": "#1a3541"
+                    }]
+                }, {
+                    "elementType": "labels.icon",
+                    "stylers": [{
+                        "visibility": "off"
+                    }]
+                }, {
+                    "featureType": "poi.park",
+                    "elementType": "geometry",
+                    "stylers": [{
+                        "color": "#2c5a71"
+                    }]
+                }];
+                break;
+            case "wa_map_style4":
+
+                var styles = [{
+                    "featureType": "all",
+                    "elementType": "labels.icon",
+                    "stylers": [{
+                        "visibility": "off"
+                    }]
+                }, {
+                    "featureType": "administrative",
+                    "elementType": "geometry.fill",
+                    "stylers": [{
+                        "color": "#eeeeee"
+                    }]
+                }, {
+                    "featureType": "administrative.country",
+                    "elementType": "geometry",
+                    "stylers": [{
+                        "lightness": "80"
+                    }]
+                }, {
+                    "featureType": "administrative.country",
+                    "elementType": "labels",
+                    "stylers": [{
+                        "visibility": "off"
+                    }]
+                }, {
+                    "featureType": "administrative.province",
+                    "elementType": "all",
+                    "stylers": [{
+                        "visibility": "off"
+                    }]
+                }, {
+                    "featureType": "administrative.locality",
+                    "elementType": "labels.text",
+                    "stylers": [{
+                        "visibility": "simplified"
+                    }, {
+                        "color": "#777777"
+                    }]
+                }, {
+                    "featureType": "administrative.locality",
+                    "elementType": "labels.icon",
+                    "stylers": [{
+                        "visibility": "simplified"
+                    }, {
+                        "lightness": 60
+                    }]
+                }, {
+                    "featureType": "administrative.neighborhood",
+                    "elementType": "all",
+                    "stylers": [{
+                        "visibility": "off"
+                    }]
+                }, {
+                    "featureType": "administrative.land_parcel",
+                    "elementType": "all",
+                    "stylers": [{
+                        "visibility": "off"
+                    }]
+                }, {
+                    "featureType": "landscape.man_made",
+                    "elementType": "geometry.fill",
+                    "stylers": [{
+                        "color": "#fbfbfb"
+                    }]
+                }, {
+                    "featureType": "landscape.man_made",
+                    "elementType": "geometry.stroke",
+                    "stylers": [{
+                        "color": "#cfcfcf"
+                    }]
+                }, {
+                    "featureType": "landscape.man_made",
+                    "elementType": "labels",
+                    "stylers": [{
+                        "visibility": "off"
+                    }]
+                }, {
+                    "featureType": "landscape.natural",
+                    "elementType": "geometry",
+                    "stylers": [{
+                        "color": "#ffffff"
+                    }]
+                }, {
+                    "featureType": "landscape.natural",
+                    "elementType": "labels",
+                    "stylers": [{
+                        "visibility": "simplified"
+                    }]
+                }, {
+                    "featureType": "poi",
+                    "elementType": "geometry.fill",
+                    "stylers": [{
+                        "color": "#dedede"
+                    }]
+                }, {
+                    "featureType": "poi",
+                    "elementType": "labels",
+                    "stylers": [{
+                        "visibility": "off"
+                    }]
+                }, {
+                    "featureType": "poi",
+                    "elementType": "labels.icon",
+                    "stylers": [{
+                        "visibility": "off"
+                    }]
+                }, {
+                    "featureType": "poi.attraction",
+                    "elementType": "geometry",
+                    "stylers": [{
+                        "color": "#eeeeee"
+                    }]
+                }, {
+                    "featureType": "poi.business",
+                    "elementType": "labels.icon",
+                    "stylers": [{
+                        "visibility": "off"
+                    }]
+                }, {
+                    "featureType": "poi.park",
+                    "elementType": "all",
+                    "stylers": [{
+                        "color": "#d1d1d1"
+                    }, {
+                        "invert_lightness": true
+                    }]
+                }, {
+                    "featureType": "poi.park",
+                    "elementType": "geometry",
+                    "stylers": [{
+                        "invert_lightness": true
+                    }]
+                }, {
+                    "featureType": "poi.park",
+                    "elementType": "labels",
+                    "stylers": [{
+                        "visibility": "off"
+                    }]
+                }, {
+                    "featureType": "road.highway",
+                    "elementType": "geometry",
+                    "stylers": [{
+                        "color": "#e5e5e5"
+                    }, {
+                        "visibility": "simplified"
+                    }]
+                }, {
+                    "featureType": "road.highway",
+                    "elementType": "labels",
+                    "stylers": [{
+                        "visibility": "off"
+                    }]
+                }, {
+                    "featureType": "road.arterial",
+                    "elementType": "geometry.stroke",
+                    "stylers": [{
+                        "color": "#cfcfcf"
+                    }, {
+                        "visibility": "on"
+                    }, {
+                        "weight": "0.55"
+                    }]
+                }, {
+                    "featureType": "road.arterial",
+                    "elementType": "labels.text",
+                    "stylers": [{
+                        "visibility": "simplified"
+                    }]
+                }, {
+                    "featureType": "road.arterial",
+                    "elementType": "labels.icon",
+                    "stylers": [{
+                        "visibility": "off"
+                    }]
+                }, {
+                    "featureType": "road.local",
+                    "elementType": "geometry.fill",
+                    "stylers": [{
+                        "color": "#efefef"
+                    }]
+                }, {
+                    "featureType": "road.local",
+                    "elementType": "geometry.stroke",
+                    "stylers": [{
+                        "visibility": "off"
+                    }]
+                }, {
+                    "featureType": "road.local",
+                    "elementType": "labels",
+                    "stylers": [{
+                        "visibility": "simplified"
+                    }]
+                }, {
+                    "featureType": "road.local",
+                    "elementType": "labels.text",
+                    "stylers": [{
+                        "color": "#777777"
+                    }, {
+                        "visibility": "off"
+                    }]
+                }, {
+                    "featureType": "road.local",
+                    "elementType": "labels.icon",
+                    "stylers": [{
+                        "visibility": "off"
+                    }]
+                }, {
+                    "featureType": "transit.line",
+                    "elementType": "geometry",
+                    "stylers": [{
+                        "color": "#cdcdcd"
+                    }]
+                }, {
+                    "featureType": "transit.line",
+                    "elementType": "labels",
+                    "stylers": [{
+                        "visibility": "off"
+                    }]
+                }, {
+                    "featureType": "transit.station",
+                    "elementType": "geometry.fill",
+                    "stylers": [{
+                        "color": "#cccccc"
+                    }]
+                }, {
+                    "featureType": "water",
+                    "elementType": "all",
+                    "stylers": [{
+                        "visibility": "simplified"
+                    }]
+                }, {
+                    "featureType": "water",
+                    "elementType": "geometry.fill",
+                    "stylers": [{
+                        "color": "#e0e0e0"
+                    }]
+                }, {
+                    "featureType": "water",
+                    "elementType": "labels",
+                    "stylers": [{
+                        "visibility": "off"
+                    }]
+                }];
+
+        }
+        var styledMap = new google.maps.StyledMapType(styles, {
+            name: "Styled Map"
+        });
+
+        if ($('.map .map-canvas').length) {
+            $('.map .map-canvas').each(function(i, obj) {
+                osterisk_map_setting(this);
+            });
+        }
+        function osterisk_map_setting(el) {
+            if ($(el).length > 0) {
+                var locations = [
+                    ['I am a Title change my', 'Company description', 17.4457073,78.34877379999999],
+                ];
+
+                var map = new google.maps.Map(document.getElementById('map-canvas'), {
+                    zoom: 14,
+                    center: new google.maps.LatLng(17.4457073,78.34877379999999),
+                    mapTypeControlOptions: {
+                        mapTypeIds: [google.maps.MapTypeId.ROADMAP, 'map_style']
+                    }
+                })
+                map.mapTypes.set('map_style', styledMap);
+                map.setMapTypeId('map_style');
+
+                var infowindow = new google.maps.InfoWindow();
+
+                var marker, i, company_info
+
+                for (i = 0; i < locations.length; i++) {
+                    marker = new google.maps.Marker({
+                        position: new google.maps.LatLng(locations[i][2], locations[i][3]),
+                        map: map,
+                        icon : 'http://themes.webdevia.com/osterisk-voip-cloud-services-wordpress-theme/wp-content/themes/osterisk/images/unnamed.png'
+                    });
+                    google.maps.event.addListener(marker, 'click', (function(marker, i) {
+                        return function() {
+                            company_info =  '<div class="map-company-info">';
+                            company_info += '<h3> ' + locations[i][0] + '</h3>';
+                            company_info += '<p> ' + locations[i][1] + ' </p>';
+                            company_info += '</div>';
+                            infowindow.setContent(company_info);
+                            infowindow.open(map, marker);
+                        }
+                    })(marker, i));
+                }
+            };
+        }
+    });
+</script>
+</body>
+</html>

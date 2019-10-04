@@ -1,0 +1,54 @@
+.titlebar {
+  text-align: center;
+  position: relative;
+  background-size: cover;
+  background-image: url("../images/titlebar-bg.svg");
+  background-position: 0 -20px;
+  padding: 40px 0;
+  background-repeat: no-repeat;
+  @include breakpoint(medium up) {
+    padding: 60px 0;
+  }
+  @include breakpoint(large up) {
+    padding: 190px 0;
+  }
+  .row {
+    display: block;
+  }
+  .woocommerce-breadcrumb {
+    padding-top: 0;
+  }
+  .breadcrumbs {
+    margin-bottom: 0;
+    display: none;
+    @include breakpoint(small only) {
+      li {
+        float: none;
+        display: inline-block;
+        strong {
+          font-weight: inherit;
+        }
+      }
+    }
+    li {
+      color: #FFF;
+    }
+  }
+
+  #page-title {
+    font-size: 20px;
+    padding: 0 15px 60px 15px;
+    margin-bottom: 0;
+    text-align: center;
+    position: relative;
+    color: #fff;
+    display: block;
+    @include breakpoint(medium up) {
+      font-size: 40px;
+      margin-right: 0;
+    }
+    @include breakpoint(large up) {
+      font-size: 54px;
+    }
+  }
+}

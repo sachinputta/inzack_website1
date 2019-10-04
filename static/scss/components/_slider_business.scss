@@ -1,0 +1,128 @@
+.slider-home-business {
+  margin-bottom: 35px;
+  .orbit-wrapper{
+    position: relative;
+    &:hover{
+      .orbit-controls{
+        opacity: 1;
+      }
+    }
+    .orbit-controls{
+      position: absolute;
+      top: 50%;
+      transform: translate(0, -50%);
+      z-index: 9;
+      width: 100%;
+      padding: 0 50px;
+      opacity: 0;
+      transition: all 400ms ease-in-out;
+      @include breakpoint(small only) {
+        display: none;
+      }
+      .orbit-previous, .orbit-next{
+        width: 80px;
+        height: 80px;
+        background: #333;
+        line-height: 80px;
+        text-align: center;
+        border-radius: 50%;
+        color: #fff;
+        font-size: 23px;
+        cursor: pointer;
+        i{
+          line-height: inherit;
+        }
+      }
+      .orbit-previous{
+        float: left;
+      }
+      .orbit-next{
+        float: right;
+      }
+    }
+    .orbit-container{
+      list-style: none;
+      margin: 0;
+      .orbit-slide{
+        .orbit-figure{
+          position: relative;
+          .orbit-caption{
+            position: absolute;
+            top: 50%;
+            transform: translate(0, -50%);
+            width: 37%;
+            padding-left: 50px;
+            @include breakpoint(small only) {
+              padding: 0 15px;
+              width: 80%;
+            }
+            h3{
+              font-size: 65px;
+              line-height: 72px;
+              font-weight: 600;
+              color: rgb(2, 2, 2);
+              letter-spacing: 0px;
+              transition: none 0s ease 0s;
+              opacity: 1;
+              transform: translate3d(0px, 0px, 0px);
+              transform-origin: 50% 50% 0px;
+              @include breakpoint(small only) {
+                font-size: 18px;
+                line-height: 1.6;
+              }
+            }
+            p{
+              white-space: normal;
+              font-size: 30px;
+              line-height: 48px;
+              font-weight: 400;
+              color: rgb(109, 109, 109);
+              font-family: Open Sans;
+              transition: none 0s ease 0s;
+              transform: translate3d(0px, 0px, 0px);
+              transform-origin: 50% 50% 0px;
+              margin-bottom: 24px;
+              @include breakpoint(small only) {
+                font-size: 14px;
+                line-height: 1.6;
+              }
+            }
+            button{
+              white-space: nowrap;
+              font-size: 20px;
+              line-height: 14px;
+              font-weight: 600;
+              color: rgb(255, 255, 255);
+              letter-spacing: 0px;
+              font-family: Open Sans;
+              background-color: rgba(255, 51, 127, 0.75);
+              border-color: rgb(255, 255, 255);
+              border-radius: 30px;
+              outline: currentcolor none medium;
+              box-shadow: rgb(153, 153, 153) 0px 0px 0px 0px;
+              box-sizing: border-box;
+              cursor: pointer;
+              visibility: inherit;
+              text-align: center;
+              padding: 17px 45px;
+              max-height: none;
+              max-width: none;
+              opacity: 1;
+              transform: translate3d(0px, 0px, 0px);
+              transform-origin: 50% 50% 0px;
+              transition: all 400ms ease-in-out;
+              @include breakpoint(small only) {
+                font-size: 15px;
+                padding: 10px 20px;
+              }
+              &:hover{
+                background: #fff;
+                color: #000;
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,14 @@
+// *********************** COUNT-UP ***********************
+.wd-count-up {
+	text-align: center;
+	i {
+		color: $secondary-color;
+		font-size: 70px;
+	}
+	svg {
+		max-width: 68px;
+	}
+	&__counter {
+		margin: 10px 0 0;
+	}
+}

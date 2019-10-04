@@ -1,0 +1,151 @@
+.portfolio-layout-1 {
+  margin: 0;
+  .portfolio-layout-1 {
+    list-style: none;
+    margin-bottom: 30px;
+    .item {
+      transition: all .3s cubic-bezier(0.68, -0.55, 0.27, 1.55);
+      img {
+        border-radius: 10px;
+        transition: all .3s cubic-bezier(0.68, -0.55, 0.27, 1.55);
+        @extend .small-shadow--noborder;
+      }
+      &:hover {
+        transform: translate3d(0, -10px, 0);
+        img {
+          @extend .small-shadow:hover;
+        }
+      }
+    }
+    .info {
+      padding: 35px 0;
+      p {
+        font-size: 17px;
+        font-weight: 300;
+      }
+    }
+    .wd-portfolio-category-holder {
+      text-transform: uppercase;
+      font-weight: 700;
+      font-size: 13px;
+      margin-bottom: 5px;
+      a {
+        padding-right: 14px;
+        &:after {
+          content: '-';
+          position: relative;
+          left: 7px;
+          color: #666;
+        }
+        &:last-child:after {
+          display: none;
+        }
+      }
+    }
+  }
+}
+
+/* clear fix */
+.grid:after {
+  content: '';
+  display: block;
+  clear: both;
+}
+
+.filters-button-group {
+  text-align: center;
+  margin-bottom: 75px;
+  .portfolio_cats {
+    font-size: 12px;
+    font-weight: 900;
+    padding: 9px 15px 6px;
+    color: $secondary-color;
+    border-radius: 15px;
+    transition: all ease-in-out 400ms;
+    background: none;
+    cursor: pointer;
+    &:hover {
+      background-color: $accent-color;
+      color: #fff;
+    }
+    &.is-checked {
+      background-color: $secondary-color;
+      color: #fff;
+      margin: 0 6px;
+      padding-left: 20px;
+      padding-right: 20px;
+      outline: none;
+    }
+  }
+}
+
+ul.portfolio-grid-items {
+  padding: 0;
+  list-style: none;
+  @include breakpoint (small only) {
+    margin: 0;
+  }
+  li.element-item {
+    position: relative;
+    text-align: center;
+    overflow: hidden;
+    .portfolio-grid-items-content{
+      position: relative;
+      overflow: hidden;
+    }
+    .portfolio_disc {
+      position: absolute;
+      background: RGBA(51, 92, 255, 0.9);
+      width: 100%;
+      height: 100%;
+      transition: all ease-in-out 400ms;
+      .portfolio_int{
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        width: 100%;
+        padding: 0 40px;
+      }
+      .portfolio_icon {
+        width: 44px;
+        height: 34px;
+        border: 1px solid rgba(255, 255, 255, 0.14);
+        display: inline-block;
+        line-height: 40px;
+        margin: 0 6px;
+        color: #fff;
+        font-size: 18px;
+        transition: all ease-in-out 400ms;
+        border-radius: 8px;
+        &:hover{
+          color: #2C3E50;
+          background: #fff;
+        }
+      }
+      .portfolio_title {
+        font-size: 17px;
+        color: #FFFFFF;
+        text-transform: capitalize;
+        letter-spacing: 2px;
+        width: 100%;
+        margin-top: 20px;
+      }
+    }
+  }
+}
+
+.portfolio-layout-4{
+  .two-two{
+    width: 50%;
+    @include breakpoint (small only) {
+      width: 100%;
+    }
+  }
+  .one-one {
+    width: 25%;
+    @include breakpoint (small only) {
+      width: 100%;
+    }
+  }
+}

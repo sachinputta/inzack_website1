@@ -1,0 +1,101 @@
+header.l-header {
+  background-color: rgba(255, 255, 255, 1);
+  .top-bar-container {
+    &.sticky {
+      transition: all .35s ease-in-out;
+      &.fixed {
+        position: fixed;
+        width: 100%;
+        background: #fff;
+        z-index: 99;
+      }
+    }
+    .site-title-bar {
+      padding: 10px;
+      @include breakpoint(medium down) {
+        padding: 10px 35px;
+      }
+      .menu-icon {
+        &::after {
+          background: #484848;
+          box-shadow: 0 7px 0 #484848, 0 14px 0 #484848;
+        }
+      }
+      .title-bar-title {
+        display: inline-block;
+        vertical-align: middle;
+        font-weight: bold;
+        a {
+          display: block;
+          transform: translatey(0px);
+          opacity: 1;
+          z-index: 23;
+          margin-left: 20px;
+          h1 {
+            font-size: 20px;
+            margin-bottom: 0;
+          }
+          img {
+            max-height: 45px;
+          }
+        }
+      }
+    }
+    .site-navigation.top-bar {
+      .top-bar-right {
+        width: 100%;
+        .mobile-menu ul {
+          padding-top: 30px;
+          li {
+            a {
+              color: #484848;
+            }
+            .submenu-toggle::after {
+              border: 5px inset transparent;
+              border-top: solid #9fade3;
+              border-bottom-width: 0;
+            }
+          }
+          &.nested.menu{
+            padding-top: 0;
+            li a {
+            color: #818181;
+            font-weight: 300;
+            padding: 0.5rem 1rem;
+            font-size: 13px;
+          }
+          }
+        }
+      }
+    }
+  }
+}
+
+.header-cta {
+  &.large-screen {
+    @include breakpoint(medium down) {
+      display: none !important;
+    }
+  }
+  @include breakpoint(small only) {
+    margin: 25px 0;
+  }
+  a {
+    @include breakpoint(medium down) {
+      background: unset !important;
+      border: none !important;
+      color: $primary-color !important;
+      border: none !important;
+      font-weight: 900 !important;
+      font-size: 17px !important;
+      text-align: left !important;
+      padding: 0 16px !important;
+    }
+
+    &:hover {
+      background-color: transparent;
+      color: $accent-color;
+      border-color: $accent-color;
+    }
+  }
+}

@@ -1,0 +1,91 @@
+.domain-search {
+  padding: 87px 140px 87px;
+  box-shadow: 0 8px 21px rgba(225,231,255,0.58);
+  border-radius: 32px;
+  background: #fff;
+  .__domain-search-header h3 {
+    font-size: 22px;
+    font-family: martel sans;
+    font-weight: 600;
+    color: #2E325B;
+    margin-bottom: 48px;
+    line-height: 26px;
+  }
+  .__domain-search-input {
+    margin-bottom: 40px;
+    position: relative;
+    input {
+      line-height: 36px;
+      font-size: 24px;
+      padding: 15px 10px 15px 73px;
+      height: 72px;
+      color: #8C92AC;
+      font-family: martel sans;
+      border: none;
+      box-shadow: 0 8px 21px rgba(210, 218, 249, 0.78);
+      border-radius: 36px 36px 0 36px;
+      &::placeholder{
+        color: #8C92AC;
+        font-family: martel sans;
+        font-weight: 400;
+      }
+    }
+    // button
+    .wd-btn{
+      position: absolute;
+      top: 50%;
+      right: 11px;
+      transform: translate(0, -50%);
+      padding: 16px 68px 13px;
+    }
+  }
+  .__domain-search-extension {
+    .extension-list {
+      list-style: none;
+      li {
+        width: 20%;
+        display: inline-block;
+        float: left;
+        text-align: center;
+        position: relative;
+        &::after {
+          content: '';
+          height: 38px;
+          width: 1px;
+          background: #D6D6D6;
+          display: block;
+          position: absolute;
+          top: 5px;
+          right: 0;
+
+        }
+        &:last-child::after {
+           display: none;
+         }
+        .name {
+          font-size: 29px;
+          font-weight: bold;
+          line-height: 48px;
+          color: #2E325B;
+          font-family: martel sans;
+          margin-right: 17px;
+          .dot{
+            color: #2E325B;
+          }
+          &.color-1{ color: #2E325B}
+          &.color-2{ color: #8265FF}
+          &.color-3{ color: #95BF47}
+          &.color-4{ color: #000000}
+          &.color-5{ color: #F66E7B}
+        }
+        .price {
+          font-size: 18px;
+          font-weight: 700;
+          font-family: martel sans;
+          line-height: 33px;
+          color: #3A46D1;
+        }
+      }
+    }
+  }
+}

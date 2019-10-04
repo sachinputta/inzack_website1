@@ -1,0 +1,31 @@
+.contact-maps {
+  .map {
+    padding-left: 150px;
+    padding-right: 150px;
+    @include breakpoint(small only) {
+      padding-left: 0px;
+      padding-right: 0px;
+    }
+  }
+}
+
+.contact-box {
+  .wd_custom_contact {
+    overflow: hidden;
+    margin-bottom: 0px;
+    padding-top: 30px;
+    padding-right: 30px;
+    padding-bottom: 30px;
+    padding-left: 30px;
+  }
+}
+
+
+  .contact-form {
+    padding-left: 300px;
+    padding-right: 300px;
+    @include breakpoint(small only) {
+      padding-left: 60px;
+      padding-right: 60px;
+    }
+  }

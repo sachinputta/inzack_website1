@@ -1,0 +1,59 @@
+header {
+  &.l-header {
+    &.creative-layout {
+      @include breakpoint(large up) {
+        background-color: transparent;
+        position: absolute;
+        width: 100%;
+        z-index: 999;
+        .top-bar-container {
+          padding: 10px 40px;
+        }
+        .top-bar-right .menu li {
+          a {
+            position: relative;
+            &:before {
+              content: '';
+              display: block !important;
+              position: absolute;
+              left: 17px;
+              top: calc(100% - 10px);
+              width: 0;
+              height: 2px;
+              background-color: $accent-color;
+              transition: all .3s ease;
+            }
+            &:hover {
+              color: #fff;
+              &:before {
+                width: calc(100% - 33px);
+              }
+            }
+          }
+          &.is-dropdown-submenu-parent a {
+            &:hover {
+              &:before {
+                width: calc(100% - 22px);
+              }
+            }
+          }
+        }
+      }
+      @media (max-width: 1210px) {
+        .top-bar {
+          .top-bar-left {
+            flex: 0 0 auto;
+          }
+        }
+      }
+      @media (max-width: 1360px) {
+        .top-bar {
+          padding: 0 15px;
+        }
+      }
+      .top-bar-right .menu li a:hover {
+        color: #fff;
+      }
+    }
+  }
+}
